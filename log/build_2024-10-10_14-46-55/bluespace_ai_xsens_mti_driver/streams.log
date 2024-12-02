@@ -1,0 +1,149 @@
+[0.006s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver
+[0.027s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.027s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.027s]   CMake.
+[0.027s] 
+[0.027s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.027s]   CMake that the project does not need compatibility with older versions.
+[0.027s] 
+[0.027s] [0m
+[0.107s] -- The C compiler identification is GNU 11.4.0
+[0.180s] -- The CXX compiler identification is GNU 11.4.0
+[0.189s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.249s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.309s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.309s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.419s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.490s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.529s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.534s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.543s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.555s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.621s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.690s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.708s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.734s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.743s] -- Looking for pthread.h
+[0.798s] -- Looking for pthread.h - found
+[0.798s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.849s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.850s] -- Found Threads: TRUE  
+[0.907s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[0.931s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.028s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.051s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.112s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.127s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.127s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mateus/mateus_alonso/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/lib/xspublic>
+[1.127s] -- Configured cppcheck exclude dirs and/or files: 
+[1.144s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.144s] -- Configured cpplint exclude dirs and/or files: 
+[1.146s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.150s] -- Added test 'lint_cmake' to check CMake code style
+[1.152s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.165s] -- Added test 'uncrustify' to check C / C++ code style
+[1.165s] -- Configured uncrustify additional arguments: 
+[1.168s] -- Added test 'xmllint' to check XML markup files
+[1.169s] -- Configuring done
+[1.179s] -- Generating done
+[1.180s] -- Build files have been written to: /home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[1.187s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver
+[1.188s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j12 -l12
+[1.202s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.202s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.202s]   CMake.
+[1.202s] 
+[1.202s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.202s]   CMake that the project does not need compatibility with older versions.
+[1.202s] 
+[1.202s] [0m
+[1.206s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.295s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.317s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.319s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.324s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.333s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.345s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.374s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.375s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.446s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.492s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.507s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.577s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.594s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.646s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.660s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.660s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mateus/mateus_alonso/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/lib/xspublic>
+[1.660s] -- Configured cppcheck exclude dirs and/or files: 
+[1.673s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.673s] -- Configured cpplint exclude dirs and/or files: 
+[1.674s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.678s] -- Added test 'lint_cmake' to check CMake code style
+[1.680s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.692s] -- Added test 'uncrustify' to check C / C++ code style
+[1.692s] -- Configured uncrustify additional arguments: 
+[1.694s] -- Added test 'xmllint' to check XML markup files
+[1.695s] -- Configuring done
+[1.703s] -- Generating done
+[1.705s] -- Build files have been written to: /home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[1.722s] gmake[2]: Warning: File '/home/mateus/mateus_alonso/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver/src/main.cpp' has modification time 237 s in the future
+[1.727s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o[0m
+[1.727s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o[0m
+[1.727s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[8.090s] [100%] [32m[1mLinking CXX executable xsens_mti_node[0m
+[8.091s] make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[8.095s] make[3]: Warning: File 'Makefile' has modification time 232 s in the future
+[8.099s] make[4]: Warning: File 'Makefile' has modification time 236 s in the future
+[10.367s] make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+[10.368s] make[4]: Warning: File 'Makefile' has modification time 229 s in the future
+[22.619s] make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+[22.619s] make[3]: Circular libxscommon <- libxscommon dependency dropped.
+[22.620s] make[4]: Warning: File 'Makefile' has modification time 225 s in the future
+[23.557s] make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+[23.557s] make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+[24.055s] gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[24.061s] [100%] Built target xsens_mti_node
+[24.067s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver -- -j12 -l12
+[24.091s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver
+[24.098s] -- Install configuration: ""
+[24.098s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node
+[24.103s] -- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node" to ""
+[24.103s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch
+[24.103s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/display.launch.py
+[24.103s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/xsens_mti_node.launch.py
+[24.103s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param
+[24.103s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param/xsens_mti_node.yaml
+[24.103s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz
+[24.103s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz/display.rviz
+[24.104s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf
+[24.104s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.stl
+[24.108s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.stl
+[24.113s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.stl
+[24.114s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.urdf
+[24.114s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.urdf
+[24.114s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.urdf
+[24.114s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/package_run_dependencies/bluespace_ai_xsens_mti_driver
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/parent_prefix_path/bluespace_ai_xsens_mti_driver
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.sh
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.dsv
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.sh
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.dsv
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.bash
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.sh
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.zsh
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.dsv
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv
+[24.115s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/packages/bluespace_ai_xsens_mti_driver
+[24.116s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig.cmake
+[24.116s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig-version.cmake
+[24.116s] -- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.xml
+[24.117s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver

@@ -1,0 +1,10 @@
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/uninstall.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/bluespace_ai_xsens_mti_driver_uninstall.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/xsens_mti_node.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/test.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/edit_cache.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/rebuild_cache.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/list_install_components.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/install.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/install/local.dir
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/CMakeFiles/install/strip.dir
