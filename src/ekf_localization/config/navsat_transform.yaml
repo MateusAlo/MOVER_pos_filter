@@ -1,0 +1,11 @@
+navsat_transform_node:
+  ros__parameters:
+    use_odometry: false
+    broadcast_cartesian_transform: true
+    publish_filtered_gps: true
+    zero_altitude: true
+    yaw_offset: 0.0
+    frame_id: "gps"
+    map_frame: "map"
+    base_link_frame: "base_link"
+    world_frame: "map"

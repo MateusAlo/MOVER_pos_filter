@@ -1,0 +1,877 @@
+[0.000000] (-) TimerEvent: {}
+[0.000467] (bluespace_ai_xsens_mti_driver) JobQueued: {'identifier': 'bluespace_ai_xsens_mti_driver', 'dependencies': OrderedDict()}
+[0.000493] (ntrip) JobQueued: {'identifier': 'ntrip', 'dependencies': OrderedDict()}
+[0.000509] (xsens_mti_ros2_driver) JobQueued: {'identifier': 'xsens_mti_ros2_driver', 'dependencies': OrderedDict()}
+[0.000523] (bluespace_ai_xsens_mti_driver) JobStarted: {'identifier': 'bluespace_ai_xsens_mti_driver'}
+[0.004569] (ntrip) JobStarted: {'identifier': 'ntrip'}
+[0.006685] (xsens_mti_ros2_driver) JobStarted: {'identifier': 'xsens_mti_ros2_driver'}
+[0.010329] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'cmake'}
+[0.010565] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'build'}
+[0.011061] (bluespace_ai_xsens_mti_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver', '--', '-j12', '-l12'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.013367] (ntrip) JobProgress: {'identifier': 'ntrip', 'progress': 'cmake'}
+[0.013709] (ntrip) Command: {'cmd': ['/usr/bin/cmake', '/home/mateus/mateus_alonso/ros2_ws/src/ntrip', '-DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/install/ntrip'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/ntrip', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/ntrip'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016641] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'cmake'}
+[0.017085] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/mateus/mateus_alonso/ros2_ws/src/xsens_mti_ros2_driver', '-DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051253] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target xsens_mti_node\x1b[0m\n'}
+[0.065647] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.065914] (ntrip) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.069703] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'[100%] Built target xsens_mti_node\n'}
+[0.078700] (bluespace_ai_xsens_mti_driver) CommandEnded: {'returncode': 0}
+[0.099900] (-) TimerEvent: {}
+[0.101601] (bluespace_ai_xsens_mti_driver) JobProgress: {'identifier': 'bluespace_ai_xsens_mti_driver', 'progress': 'install'}
+[0.108742] (bluespace_ai_xsens_mti_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.116277] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.116494] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node\n'}
+[0.116678] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch\n'}
+[0.116886] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/display.launch.py\n'}
+[0.117107] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/xsens_mti_node.launch.py\n'}
+[0.117271] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param\n'}
+[0.117396] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param/xsens_mti_node.yaml\n'}
+[0.117519] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz\n'}
+[0.117672] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz/display.rviz\n'}
+[0.117793] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf\n'}
+[0.117914] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.stl\n'}
+[0.118085] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.stl\n'}
+[0.118213] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.stl\n'}
+[0.118327] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.urdf\n'}
+[0.118448] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.urdf\n'}
+[0.118629] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.urdf\n'}
+[0.118821] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/package_run_dependencies/bluespace_ai_xsens_mti_driver\n'}
+[0.119075] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/parent_prefix_path/bluespace_ai_xsens_mti_driver\n'}
+[0.119245] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.sh\n'}
+[0.119457] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.dsv\n'}
+[0.119526] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.sh\n'}
+[0.119592] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.dsv\n'}
+[0.119754] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.bash\n'}
+[0.119837] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.sh\n'}
+[0.119916] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.zsh\n'}
+[0.119976] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.dsv\n'}
+[0.120037] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv\n'}
+[0.120369] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/packages/bluespace_ai_xsens_mti_driver\n'}
+[0.120441] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig.cmake\n'}
+[0.120872] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig-version.cmake\n'}
+[0.121165] (bluespace_ai_xsens_mti_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.xml\n'}
+[0.121289] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.121440] (ntrip) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.121686] (bluespace_ai_xsens_mti_driver) CommandEnded: {'returncode': 0}
+[0.126643] (ntrip) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.126903] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.162388] (bluespace_ai_xsens_mti_driver) JobEnded: {'identifier': 'bluespace_ai_xsens_mti_driver', 'rc': 0}
+[0.183937] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184075] (ntrip) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.191108] (ntrip) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.191208] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.191435] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.191536] (ntrip) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.191896] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.191994] (ntrip) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.194738] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.194834] (ntrip) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200007] (-) TimerEvent: {}
+[0.259143] (ntrip) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.259272] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.265964] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.266085] (ntrip) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.266250] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.266340] (ntrip) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.266655] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.266739] (ntrip) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.269116] (ntrip) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.269305] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300122] (-) TimerEvent: {}
+[0.391962] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.392183] (ntrip) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400192] (-) TimerEvent: {}
+[0.465743] (ntrip) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.465871] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500016] (ntrip) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.500141] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.500202] (-) TimerEvent: {}
+[0.504450] (ntrip) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.504573] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.511500] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.511652] (ntrip) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.522146] (ntrip) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.522257] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.536877] (ntrip) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.537112] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.574674] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.574793] (ntrip) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.576865] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.577022] (ntrip) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.595292] (xsens_mti_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.595474] (ntrip) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.600275] (-) TimerEvent: {}
+[0.602156] (ntrip) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.602268] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.656311] (ntrip) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.656532] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.656611] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.656672] (ntrip) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.700407] (-) TimerEvent: {}
+[0.713853] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.714038] (ntrip) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.714572] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.714740] (ntrip) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.761931] (ntrip) StdoutLine: {'line': b'-- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)\n'}
+[0.763482] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.785053] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.800497] (-) TimerEvent: {}
+[0.843730] (ntrip) StdoutLine: {'line': b'-- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)\n'}
+[0.866477] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.882685] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)\n'}
+[0.895173] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found mavros_msgs: 2.9.0 (/opt/ros/humble/share/mavros_msgs/cmake)\n'}
+[0.900571] (-) TimerEvent: {}
+[0.910615] (ntrip) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.919473] (ntrip) StdoutLine: {'line': b'-- Generating done\n'}
+[0.920665] (ntrip) StdoutLine: {'line': b'-- Build files have been written to: /home/mateus/mateus_alonso/ros2_ws/build/ntrip\n'}
+[0.926514] (ntrip) CommandEnded: {'returncode': 0}
+[0.927933] (ntrip) JobProgress: {'identifier': 'ntrip', 'progress': 'build'}
+[0.927991] (ntrip) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mateus/mateus_alonso/ros2_ws/build/ntrip', '--', '-j12', '-l12'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/ntrip', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/ntrip'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.940303] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.965642] (ntrip) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ntrip.dir/src/ntrip_util.cpp.o\x1b[0m\n'}
+[0.965884] (ntrip) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ntrip.dir/src/ntrip_client.cpp.o\x1b[0m\n'}
+[0.966014] (ntrip) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ntrip.dir/src/client.cpp.o\x1b[0m\n'}
+[1.000678] (-) TimerEvent: {}
+[1.101008] (-) TimerEvent: {}
+[1.201253] (-) TimerEvent: {}
+[1.225238] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.301343] (-) TimerEvent: {}
+[1.401586] (-) TimerEvent: {}
+[1.501908] (-) TimerEvent: {}
+[1.593939] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602010] (-) TimerEvent: {}
+[1.702290] (-) TimerEvent: {}
+[1.727833] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.749387] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.751363] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.776161] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.776423] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.776518] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.776600] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.795989] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.802381] (-) TimerEvent: {}
+[1.864523] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902487] (-) TimerEvent: {}
+[1.907039] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[1.910013] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver\n'}
+[1.920494] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[1.921082] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'build'}
+[1.921499] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver', '--', '-j12', '-l12'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.958395] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.968983] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.969276] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xspublic'\x1b[0m\n"}
+[1.977209] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_xsens_mti_ros2_driver\n'}
+[2.002603] (-) TimerEvent: {}
+[2.046685] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[  8%] \x1b[34m\x1b[1mNo download step for 'xspublic'\x1b[0m\n"}
+[2.073178] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 10%] \x1b[34m\x1b[1mNo update step for 'xspublic'\x1b[0m\n"}
+[2.100308] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 13%] \x1b[34m\x1b[1mNo patch step for 'xspublic'\x1b[0m\n"}
+[2.102698] (-) TimerEvent: {}
+[2.126940] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 15%] \x1b[34m\x1b[1mNo configure step for 'xspublic'\x1b[0m\n"}
+[2.155099] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 17%] \x1b[34m\x1b[1mPerforming build step for 'xspublic'\x1b[0m\n"}
+[2.157620] (xsens_mti_ros2_driver) StderrLine: {'line': b"make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.\n"}
+[2.202812] (-) TimerEvent: {}
+[2.303171] (-) TimerEvent: {}
+[2.305711] (xsens_mti_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[2.306775] (xsens_mti_ros2_driver) StdoutLine: {'line': b'creating xsens_mti_ros2_driver.egg-info\n'}
+[2.307044] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing xsens_mti_ros2_driver.egg-info/PKG-INFO\n'}
+[2.307292] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt\n'}
+[2.307513] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt\n'}
+[2.307733] (xsens_mti_ros2_driver) StdoutLine: {'line': b"writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[2.310933] (xsens_mti_ros2_driver) StdoutLine: {'line': b"reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[2.311636] (xsens_mti_ros2_driver) StdoutLine: {'line': b"writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[2.343616] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 17%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg\n'}
+[2.403293] (-) TimerEvent: {}
+[2.415123] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c.o\x1b[0m\n'}
+[2.416696] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 19%] Built target xsens_mti_ros2_driver__cpp\n'}
+[2.427509] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.427862] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.431625] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.478846] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking C shared library libxsens_mti_ros2_driver__rosidl_generator_c.so\x1b[0m\n'}
+[2.503406] (-) TimerEvent: {}
+[2.524897] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 28%] Built target xsens_mti_ros2_driver__rosidl_generator_c\n'}
+[2.539694] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.541311] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.541614] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.603530] (-) TimerEvent: {}
+[2.703891] (-) TimerEvent: {}
+[2.804251] (-) TimerEvent: {}
+[2.902612] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/xs_status_word__type_support.cpp.o\x1b[0m\n'}
+[2.904334] (-) TimerEvent: {}
+[2.971496] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o\x1b[0m\n'}
+[3.004462] (-) TimerEvent: {}
+[3.007123] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.057935] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 41%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c\n'}
+[3.104552] (-) TimerEvent: {}
+[3.170417] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o\x1b[0m\n'}
+[3.186143] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp.o\x1b[0m\n'}
+[3.204678] (-) TimerEvent: {}
+[3.279293] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support_c.cpp.o\x1b[0m\n'}
+[3.304799] (-) TimerEvent: {}
+[3.344489] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c.o\x1b[0m\n'}
+[3.403265] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.404901] (-) TimerEvent: {}
+[3.454391] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.457087] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 54%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c\n'}
+[3.505039] (-) TimerEvent: {}
+[3.546181] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 54%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[3.605144] (-) TimerEvent: {}
+[3.654597] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.681481] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.700540] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 58%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp\n'}
+[3.705275] (-) TimerEvent: {}
+[3.725839] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 58%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp\n'}
+[3.731352] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.805405] (-) TimerEvent: {}
+[3.808103] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 60%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c\n'}
+[3.826484] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 60%] Built target xsens_mti_ros2_driver\n'}
+[3.845686] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.905493] (-) TimerEvent: {}
+[4.005764] (-) TimerEvent: {}
+[4.106030] (-) TimerEvent: {}
+[4.206283] (-) TimerEvent: {}
+[4.306531] (-) TimerEvent: {}
+[4.403740] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 63%] Built target xsens_mti_ros2_driver__py\n'}
+[4.406641] (-) TimerEvent: {}
+[4.422111] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_xs_status_word_s.c.o\x1b[0m\n'}
+[4.506750] (-) TimerEvent: {}
+[4.553242] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so\x1b[0m\n'}
+[4.591545] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 67%] Built target xsens_mti_ros2_driver__rosidl_generator_py\n'}
+[4.606882] (-) TimerEvent: {}
+[4.611566] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.611763] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.611847] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.706996] (-) TimerEvent: {}
+[4.720533] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.721364] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.721499] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.761164] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 80%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.761464] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 80%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c__pyext\n'}
+[4.761618] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 80%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[4.807116] (-) TimerEvent: {}
+[4.907345] (-) TimerEvent: {}
+[5.007599] (-) TimerEvent: {}
+[5.107849] (-) TimerEvent: {}
+[5.208130] (-) TimerEvent: {}
+[5.308414] (-) TimerEvent: {}
+[5.408706] (-) TimerEvent: {}
+[5.509014] (-) TimerEvent: {}
+[5.609255] (-) TimerEvent: {}
+[5.709538] (-) TimerEvent: {}
+[5.809848] (-) TimerEvent: {}
+[5.910138] (-) TimerEvent: {}
+[6.010433] (-) TimerEvent: {}
+[6.110729] (-) TimerEvent: {}
+[6.211008] (-) TimerEvent: {}
+[6.311290] (-) TimerEvent: {}
+[6.411525] (-) TimerEvent: {}
+[6.511840] (-) TimerEvent: {}
+[6.612088] (-) TimerEvent: {}
+[6.712359] (-) TimerEvent: {}
+[6.812622] (-) TimerEvent: {}
+[6.912871] (-) TimerEvent: {}
+[7.013122] (-) TimerEvent: {}
+[7.113337] (-) TimerEvent: {}
+[7.213584] (-) TimerEvent: {}
+[7.313830] (-) TimerEvent: {}
+[7.414091] (-) TimerEvent: {}
+[7.514306] (-) TimerEvent: {}
+[7.614566] (-) TimerEvent: {}
+[7.714795] (-) TimerEvent: {}
+[7.815075] (-) TimerEvent: {}
+[7.915357] (-) TimerEvent: {}
+[8.015664] (-) TimerEvent: {}
+[8.115951] (-) TimerEvent: {}
+[8.216244] (-) TimerEvent: {}
+[8.316540] (-) TimerEvent: {}
+[8.416787] (-) TimerEvent: {}
+[8.517032] (-) TimerEvent: {}
+[8.617262] (-) TimerEvent: {}
+[8.717531] (-) TimerEvent: {}
+[8.817782] (-) TimerEvent: {}
+[8.918023] (-) TimerEvent: {}
+[9.018250] (-) TimerEvent: {}
+[9.118509] (-) TimerEvent: {}
+[9.218765] (-) TimerEvent: {}
+[9.319019] (-) TimerEvent: {}
+[9.419261] (-) TimerEvent: {}
+[9.519578] (-) TimerEvent: {}
+[9.528874] (ntrip) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ntrip\x1b[0m\n'}
+[9.619689] (-) TimerEvent: {}
+[9.719979] (-) TimerEvent: {}
+[9.820271] (-) TimerEvent: {}
+[9.880586] (ntrip) StdoutLine: {'line': b'[100%] Built target ntrip\n'}
+[9.888872] (ntrip) CommandEnded: {'returncode': 0}
+[9.909327] (ntrip) JobProgress: {'identifier': 'ntrip', 'progress': 'install'}
+[9.909557] (ntrip) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mateus/mateus_alonso/ros2_ws/build/ntrip'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/ntrip', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/ntrip'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[9.915862] (ntrip) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.916004] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/lib/ntrip/ntrip\n'}
+[9.918130] (ntrip) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/ntrip/lib/ntrip/ntrip" to ""\n'}
+[9.918227] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip//launch\n'}
+[9.918367] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip//launch/ntrip_launch.py\n'}
+[9.918451] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/package_run_dependencies/ntrip\n'}
+[9.918529] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/parent_prefix_path/ntrip\n'}
+[9.918611] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.sh\n'}
+[9.918701] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.dsv\n'}
+[9.918800] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/path.sh\n'}
+[9.918889] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/path.dsv\n'}
+[9.918995] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.bash\n'}
+[9.919088] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.sh\n'}
+[9.919194] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.zsh\n'}
+[9.919280] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.dsv\n'}
+[9.919367] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/package.dsv\n'}
+[9.919517] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/packages/ntrip\n'}
+[9.919670] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig.cmake\n'}
+[9.919769] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig-version.cmake\n'}
+[9.919880] (ntrip) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/package.xml\n'}
+[9.920328] (-) TimerEvent: {}
+[9.921347] (ntrip) CommandEnded: {'returncode': 0}
+[9.951359] (ntrip) JobEnded: {'identifier': 'ntrip', 'rc': 0}
+[10.020456] (-) TimerEvent: {}
+[10.120697] (-) TimerEvent: {}
+[10.220942] (-) TimerEvent: {}
+[10.321178] (-) TimerEvent: {}
+[10.421433] (-) TimerEvent: {}
+[10.521684] (-) TimerEvent: {}
+[10.621920] (-) TimerEvent: {}
+[10.722155] (-) TimerEvent: {}
+[10.822567] (-) TimerEvent: {}
+[10.922808] (-) TimerEvent: {}
+[11.023041] (-) TimerEvent: {}
+[11.123258] (-) TimerEvent: {}
+[11.223478] (-) TimerEvent: {}
+[11.323712] (-) TimerEvent: {}
+[11.423950] (-) TimerEvent: {}
+[11.524153] (-) TimerEvent: {}
+[11.624388] (-) TimerEvent: {}
+[11.724690] (-) TimerEvent: {}
+[11.824924] (-) TimerEvent: {}
+[11.925153] (-) TimerEvent: {}
+[12.025391] (-) TimerEvent: {}
+[12.125631] (-) TimerEvent: {}
+[12.225864] (-) TimerEvent: {}
+[12.326107] (-) TimerEvent: {}
+[12.426311] (-) TimerEvent: {}
+[12.526556] (-) TimerEvent: {}
+[12.626784] (-) TimerEvent: {}
+[12.727052] (-) TimerEvent: {}
+[12.827269] (-) TimerEvent: {}
+[12.927503] (-) TimerEvent: {}
+[13.027759] (-) TimerEvent: {}
+[13.128028] (-) TimerEvent: {}
+[13.228285] (-) TimerEvent: {}
+[13.328533] (-) TimerEvent: {}
+[13.428767] (-) TimerEvent: {}
+[13.528972] (-) TimerEvent: {}
+[13.629177] (-) TimerEvent: {}
+[13.729413] (-) TimerEvent: {}
+[13.829650] (-) TimerEvent: {}
+[13.929892] (-) TimerEvent: {}
+[14.030121] (-) TimerEvent: {}
+[14.130409] (-) TimerEvent: {}
+[14.230695] (-) TimerEvent: {}
+[14.330996] (-) TimerEvent: {}
+[14.431235] (-) TimerEvent: {}
+[14.531517] (-) TimerEvent: {}
+[14.631790] (-) TimerEvent: {}
+[14.732080] (-) TimerEvent: {}
+[14.832387] (-) TimerEvent: {}
+[14.932612] (-) TimerEvent: {}
+[15.032838] (-) TimerEvent: {}
+[15.133053] (-) TimerEvent: {}
+[15.233356] (-) TimerEvent: {}
+[15.333580] (-) TimerEvent: {}
+[15.433799] (-) TimerEvent: {}
+[15.534050] (-) TimerEvent: {}
+[15.634291] (-) TimerEvent: {}
+[15.734512] (-) TimerEvent: {}
+[15.834743] (-) TimerEvent: {}
+[15.934968] (-) TimerEvent: {}
+[16.035179] (-) TimerEvent: {}
+[16.135407] (-) TimerEvent: {}
+[16.235621] (-) TimerEvent: {}
+[16.335885] (-) TimerEvent: {}
+[16.436112] (-) TimerEvent: {}
+[16.536354] (-) TimerEvent: {}
+[16.636561] (-) TimerEvent: {}
+[16.736804] (-) TimerEvent: {}
+[16.837056] (-) TimerEvent: {}
+[16.937307] (-) TimerEvent: {}
+[17.037545] (-) TimerEvent: {}
+[17.137786] (-) TimerEvent: {}
+[17.238024] (-) TimerEvent: {}
+[17.338288] (-) TimerEvent: {}
+[17.438488] (-) TimerEvent: {}
+[17.538723] (-) TimerEvent: {}
+[17.638963] (-) TimerEvent: {}
+[17.739204] (-) TimerEvent: {}
+[17.839441] (-) TimerEvent: {}
+[17.939647] (-) TimerEvent: {}
+[18.039873] (-) TimerEvent: {}
+[18.140115] (-) TimerEvent: {}
+[18.240356] (-) TimerEvent: {}
+[18.340599] (-) TimerEvent: {}
+[18.440815] (-) TimerEvent: {}
+[18.541109] (-) TimerEvent: {}
+[18.641346] (-) TimerEvent: {}
+[18.741555] (-) TimerEvent: {}
+[18.841799] (-) TimerEvent: {}
+[18.942040] (-) TimerEvent: {}
+[19.042242] (-) TimerEvent: {}
+[19.142475] (-) TimerEvent: {}
+[19.242717] (-) TimerEvent: {}
+[19.342953] (-) TimerEvent: {}
+[19.443171] (-) TimerEvent: {}
+[19.543399] (-) TimerEvent: {}
+[19.643640] (-) TimerEvent: {}
+[19.743886] (-) TimerEvent: {}
+[19.844127] (-) TimerEvent: {}
+[19.944358] (-) TimerEvent: {}
+[20.044595] (-) TimerEvent: {}
+[20.144837] (-) TimerEvent: {}
+[20.245090] (-) TimerEvent: {}
+[20.345297] (-) TimerEvent: {}
+[20.445533] (-) TimerEvent: {}
+[20.545770] (-) TimerEvent: {}
+[20.646012] (-) TimerEvent: {}
+[20.746228] (-) TimerEvent: {}
+[20.846459] (-) TimerEvent: {}
+[20.946682] (-) TimerEvent: {}
+[21.046940] (-) TimerEvent: {}
+[21.147226] (-) TimerEvent: {}
+[21.247497] (-) TimerEvent: {}
+[21.347777] (-) TimerEvent: {}
+[21.448021] (-) TimerEvent: {}
+[21.548268] (-) TimerEvent: {}
+[21.648508] (-) TimerEvent: {}
+[21.748840] (-) TimerEvent: {}
+[21.849487] (-) TimerEvent: {}
+[21.949749] (-) TimerEvent: {}
+[22.050014] (-) TimerEvent: {}
+[22.150285] (-) TimerEvent: {}
+[22.250542] (-) TimerEvent: {}
+[22.350812] (-) TimerEvent: {}
+[22.451099] (-) TimerEvent: {}
+[22.551375] (-) TimerEvent: {}
+[22.651588] (-) TimerEvent: {}
+[22.751855] (-) TimerEvent: {}
+[22.852118] (-) TimerEvent: {}
+[22.952357] (-) TimerEvent: {}
+[23.052599] (-) TimerEvent: {}
+[23.152836] (-) TimerEvent: {}
+[23.253088] (-) TimerEvent: {}
+[23.353289] (-) TimerEvent: {}
+[23.453523] (-) TimerEvent: {}
+[23.553760] (-) TimerEvent: {}
+[23.654017] (-) TimerEvent: {}
+[23.754233] (-) TimerEvent: {}
+[23.854467] (-) TimerEvent: {}
+[23.954710] (-) TimerEvent: {}
+[24.054952] (-) TimerEvent: {}
+[24.155188] (-) TimerEvent: {}
+[24.255422] (-) TimerEvent: {}
+[24.355663] (-) TimerEvent: {}
+[24.455913] (-) TimerEvent: {}
+[24.556162] (-) TimerEvent: {}
+[24.656398] (-) TimerEvent: {}
+[24.756636] (-) TimerEvent: {}
+[24.856896] (-) TimerEvent: {}
+[24.957138] (-) TimerEvent: {}
+[25.057365] (-) TimerEvent: {}
+[25.157614] (-) TimerEvent: {}
+[25.257891] (-) TimerEvent: {}
+[25.358161] (-) TimerEvent: {}
+[25.458424] (-) TimerEvent: {}
+[25.558684] (-) TimerEvent: {}
+[25.658945] (-) TimerEvent: {}
+[25.759235] (-) TimerEvent: {}
+[25.859513] (-) TimerEvent: {}
+[25.959792] (-) TimerEvent: {}
+[26.060053] (-) TimerEvent: {}
+[26.160339] (-) TimerEvent: {}
+[26.260570] (-) TimerEvent: {}
+[26.360812] (-) TimerEvent: {}
+[26.461031] (-) TimerEvent: {}
+[26.561292] (-) TimerEvent: {}
+[26.661563] (-) TimerEvent: {}
+[26.761827] (-) TimerEvent: {}
+[26.862172] (-) TimerEvent: {}
+[26.962403] (-) TimerEvent: {}
+[27.062640] (-) TimerEvent: {}
+[27.162888] (-) TimerEvent: {}
+[27.263262] (-) TimerEvent: {}
+[27.363500] (-) TimerEvent: {}
+[27.463755] (-) TimerEvent: {}
+[27.563993] (-) TimerEvent: {}
+[27.664240] (-) TimerEvent: {}
+[27.764449] (-) TimerEvent: {}
+[27.864683] (-) TimerEvent: {}
+[27.964914] (-) TimerEvent: {}
+[28.065160] (-) TimerEvent: {}
+[28.165400] (-) TimerEvent: {}
+[28.265639] (-) TimerEvent: {}
+[28.365876] (-) TimerEvent: {}
+[28.466124] (-) TimerEvent: {}
+[28.566359] (-) TimerEvent: {}
+[28.666559] (-) TimerEvent: {}
+[28.766796] (-) TimerEvent: {}
+[28.867034] (-) TimerEvent: {}
+[28.967259] (-) TimerEvent: {}
+[29.067498] (-) TimerEvent: {}
+[29.167732] (-) TimerEvent: {}
+[29.267939] (-) TimerEvent: {}
+[29.368151] (-) TimerEvent: {}
+[29.468392] (-) TimerEvent: {}
+[29.568636] (-) TimerEvent: {}
+[29.668887] (-) TimerEvent: {}
+[29.769122] (-) TimerEvent: {}
+[29.869356] (-) TimerEvent: {}
+[29.969591] (-) TimerEvent: {}
+[30.069838] (-) TimerEvent: {}
+[30.170095] (-) TimerEvent: {}
+[30.270300] (-) TimerEvent: {}
+[30.370540] (-) TimerEvent: {}
+[30.470793] (-) TimerEvent: {}
+[30.571031] (-) TimerEvent: {}
+[30.671288] (-) TimerEvent: {}
+[30.771496] (-) TimerEvent: {}
+[30.871743] (-) TimerEvent: {}
+[30.971974] (-) TimerEvent: {}
+[31.072180] (-) TimerEvent: {}
+[31.172632] (-) TimerEvent: {}
+[31.272876] (-) TimerEvent: {}
+[31.373321] (-) TimerEvent: {}
+[31.473808] (-) TimerEvent: {}
+[31.574044] (-) TimerEvent: {}
+[31.674262] (-) TimerEvent: {}
+[31.774504] (-) TimerEvent: {}
+[31.874748] (-) TimerEvent: {}
+[31.974990] (-) TimerEvent: {}
+[32.075206] (-) TimerEvent: {}
+[32.175447] (-) TimerEvent: {}
+[32.275712] (-) TimerEvent: {}
+[32.375955] (-) TimerEvent: {}
+[32.476157] (-) TimerEvent: {}
+[32.576394] (-) TimerEvent: {}
+[32.676638] (-) TimerEvent: {}
+[32.776875] (-) TimerEvent: {}
+[32.877110] (-) TimerEvent: {}
+[32.977316] (-) TimerEvent: {}
+[33.077532] (-) TimerEvent: {}
+[33.177814] (-) TimerEvent: {}
+[33.278049] (-) TimerEvent: {}
+[33.378266] (-) TimerEvent: {}
+[33.478519] (-) TimerEvent: {}
+[33.578761] (-) TimerEvent: {}
+[33.679006] (-) TimerEvent: {}
+[33.779228] (-) TimerEvent: {}
+[33.879460] (-) TimerEvent: {}
+[33.979702] (-) TimerEvent: {}
+[34.079940] (-) TimerEvent: {}
+[34.180151] (-) TimerEvent: {}
+[34.280403] (-) TimerEvent: {}
+[34.380655] (-) TimerEvent: {}
+[34.480895] (-) TimerEvent: {}
+[34.581149] (-) TimerEvent: {}
+[34.681384] (-) TimerEvent: {}
+[34.781640] (-) TimerEvent: {}
+[34.881885] (-) TimerEvent: {}
+[34.982135] (-) TimerEvent: {}
+[35.082419] (-) TimerEvent: {}
+[35.182672] (-) TimerEvent: {}
+[35.282913] (-) TimerEvent: {}
+[35.383146] (-) TimerEvent: {}
+[35.483390] (-) TimerEvent: {}
+[35.583630] (-) TimerEvent: {}
+[35.683870] (-) TimerEvent: {}
+[35.784115] (-) TimerEvent: {}
+[35.884350] (-) TimerEvent: {}
+[35.984599] (-) TimerEvent: {}
+[36.084838] (-) TimerEvent: {}
+[36.185078] (-) TimerEvent: {}
+[36.215182] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 82%] \x1b[34m\x1b[1mNo install step for 'xspublic'\x1b[0m\n"}
+[36.231191] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 84%] \x1b[34m\x1b[1mCompleted 'xspublic'\x1b[0m\n"}
+[36.252434] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 84%] Built target xspublic\n'}
+[36.270604] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o\x1b[0m\n'}
+[36.270930] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o\x1b[0m\n'}
+[36.271086] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o\x1b[0m\n'}
+[36.271224] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/ntrip_util.cpp.o\x1b[0m\n'}
+[36.271371] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_log_handler.cpp.o\x1b[0m\n'}
+[36.271543] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_time_handler.cpp.o\x1b[0m\n'}
+[36.285137] (-) TimerEvent: {}
+[36.385458] (-) TimerEvent: {}
+[36.485786] (-) TimerEvent: {}
+[36.586121] (-) TimerEvent: {}
+[36.686459] (-) TimerEvent: {}
+[36.786814] (-) TimerEvent: {}
+[36.887164] (-) TimerEvent: {}
+[36.987511] (-) TimerEvent: {}
+[37.087862] (-) TimerEvent: {}
+[37.188202] (-) TimerEvent: {}
+[37.288527] (-) TimerEvent: {}
+[37.388846] (-) TimerEvent: {}
+[37.489160] (-) TimerEvent: {}
+[37.589488] (-) TimerEvent: {}
+[37.689818] (-) TimerEvent: {}
+[37.790146] (-) TimerEvent: {}
+[37.890486] (-) TimerEvent: {}
+[37.990803] (-) TimerEvent: {}
+[38.091132] (-) TimerEvent: {}
+[38.191459] (-) TimerEvent: {}
+[38.291772] (-) TimerEvent: {}
+[38.392105] (-) TimerEvent: {}
+[38.492425] (-) TimerEvent: {}
+[38.592739] (-) TimerEvent: {}
+[38.693055] (-) TimerEvent: {}
+[38.793384] (-) TimerEvent: {}
+[38.893713] (-) TimerEvent: {}
+[38.994040] (-) TimerEvent: {}
+[39.094379] (-) TimerEvent: {}
+[39.194702] (-) TimerEvent: {}
+[39.295024] (-) TimerEvent: {}
+[39.395345] (-) TimerEvent: {}
+[39.495643] (-) TimerEvent: {}
+[39.595928] (-) TimerEvent: {}
+[39.696225] (-) TimerEvent: {}
+[39.796463] (-) TimerEvent: {}
+[39.896702] (-) TimerEvent: {}
+[39.996906] (-) TimerEvent: {}
+[40.097159] (-) TimerEvent: {}
+[40.197365] (-) TimerEvent: {}
+[40.297613] (-) TimerEvent: {}
+[40.397877] (-) TimerEvent: {}
+[40.498122] (-) TimerEvent: {}
+[40.598361] (-) TimerEvent: {}
+[40.698612] (-) TimerEvent: {}
+[40.798861] (-) TimerEvent: {}
+[40.899109] (-) TimerEvent: {}
+[40.999354] (-) TimerEvent: {}
+[41.099597] (-) TimerEvent: {}
+[41.199841] (-) TimerEvent: {}
+[41.300090] (-) TimerEvent: {}
+[41.400332] (-) TimerEvent: {}
+[41.500574] (-) TimerEvent: {}
+[41.600809] (-) TimerEvent: {}
+[41.701051] (-) TimerEvent: {}
+[41.801310] (-) TimerEvent: {}
+[41.901550] (-) TimerEvent: {}
+[42.001797] (-) TimerEvent: {}
+[42.102038] (-) TimerEvent: {}
+[42.202306] (-) TimerEvent: {}
+[42.302512] (-) TimerEvent: {}
+[42.402774] (-) TimerEvent: {}
+[42.503039] (-) TimerEvent: {}
+[42.603341] (-) TimerEvent: {}
+[42.703607] (-) TimerEvent: {}
+[42.803853] (-) TimerEvent: {}
+[42.904154] (-) TimerEvent: {}
+[43.004394] (-) TimerEvent: {}
+[43.104628] (-) TimerEvent: {}
+[43.204864] (-) TimerEvent: {}
+[43.305114] (-) TimerEvent: {}
+[43.405375] (-) TimerEvent: {}
+[43.505608] (-) TimerEvent: {}
+[43.605839] (-) TimerEvent: {}
+[43.706077] (-) TimerEvent: {}
+[43.806322] (-) TimerEvent: {}
+[43.906551] (-) TimerEvent: {}
+[44.006783] (-) TimerEvent: {}
+[44.107013] (-) TimerEvent: {}
+[44.207241] (-) TimerEvent: {}
+[44.307473] (-) TimerEvent: {}
+[44.407706] (-) TimerEvent: {}
+[44.507937] (-) TimerEvent: {}
+[44.608167] (-) TimerEvent: {}
+[44.708364] (-) TimerEvent: {}
+[44.808594] (-) TimerEvent: {}
+[44.908824] (-) TimerEvent: {}
+[45.009072] (-) TimerEvent: {}
+[45.109305] (-) TimerEvent: {}
+[45.209534] (-) TimerEvent: {}
+[45.309956] (-) TimerEvent: {}
+[45.417557] (-) TimerEvent: {}
+[45.517787] (-) TimerEvent: {}
+[45.618014] (-) TimerEvent: {}
+[45.718252] (-) TimerEvent: {}
+[45.818483] (-) TimerEvent: {}
+[45.918714] (-) TimerEvent: {}
+[46.018949] (-) TimerEvent: {}
+[46.119187] (-) TimerEvent: {}
+[46.219419] (-) TimerEvent: {}
+[46.319653] (-) TimerEvent: {}
+[46.419884] (-) TimerEvent: {}
+[46.520114] (-) TimerEvent: {}
+[46.620341] (-) TimerEvent: {}
+[46.720575] (-) TimerEvent: {}
+[46.820803] (-) TimerEvent: {}
+[46.921033] (-) TimerEvent: {}
+[47.021272] (-) TimerEvent: {}
+[47.121512] (-) TimerEvent: {}
+[47.221757] (-) TimerEvent: {}
+[47.322014] (-) TimerEvent: {}
+[47.422230] (-) TimerEvent: {}
+[47.522471] (-) TimerEvent: {}
+[47.622712] (-) TimerEvent: {}
+[47.714013] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable xsens_mti_node\x1b[0m\n'}
+[47.722809] (-) TimerEvent: {}
+[47.823036] (-) TimerEvent: {}
+[47.923264] (-) TimerEvent: {}
+[48.023524] (-) TimerEvent: {}
+[48.123775] (-) TimerEvent: {}
+[48.224013] (-) TimerEvent: {}
+[48.324262] (-) TimerEvent: {}
+[48.376746] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[100%] Built target xsens_mti_node\n'}
+[48.384243] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[48.424361] (-) TimerEvent: {}
+[48.427726] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'install'}
+[48.428024] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver'], 'cwd': '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mateus'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mateus'), ('OLDPWD', '/home/mateus/mateus_alonso/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '1657'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '1773'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4359'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mateus'), ('JOURNAL_STREAM', '8:12103'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mateus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mateus:@/tmp/.ICE-unix/1749,unix/mateus:/tmp/.ICE-unix/1749'), ('INVOCATION_ID', '06c9ea224ade4845a19b8096978e0a91'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L1EEY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:45c81969-1175-4d29-a5fc-0f9d85db7dfd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mateus/mateus_alonso/ros2_ws/build/xsens_mti_ros2_driver'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[48.433963] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[48.434073] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/rosidl_interfaces/xsens_mti_ros2_driver\n'}
+[48.434262] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[48.434354] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[48.434423] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.h\n'}
+[48.434484] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[48.434549] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.h\n'}
+[48.434609] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.h\n'}
+[48.434667] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.h\n'}
+[48.434713] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c\n'}
+[48.434776] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[48.434938] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.sh\n'}
+[48.435060] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.dsv\n'}
+[48.435239] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so\n'}
+[48.435500] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so" to ""\n'}
+[48.435592] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[48.435675] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[48.435763] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[48.435835] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[48.435897] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_c.h\n'}
+[48.435990] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[48.436129] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[48.436219] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[48.436283] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[48.436334] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[48.436388] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__builder.hpp\n'}
+[48.436463] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__traits.hpp\n'}
+[48.436530] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.hpp\n'}
+[48.436582] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.hpp\n'}
+[48.436659] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[48.436712] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[48.436766] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[48.436838] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[48.436908] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/dds_fastrtps\n'}
+[48.436978] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[48.437050] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[48.437159] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[48.437239] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[48.437296] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[48.437381] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[48.437436] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[48.437491] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c\n'}
+[48.437569] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_c.h\n'}
+[48.437628] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so\n'}
+[48.437783] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[48.437849] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so\n'}
+[48.438065] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so" to ""\n'}
+[48.438157] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[48.438246] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[48.438305] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[48.438361] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_cpp.hpp\n'}
+[48.438438] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp\n'}
+[48.438497] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[48.438629] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[48.438695] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so\n'}
+[48.438906] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[48.438994] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.sh\n'}
+[48.439062] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.dsv\n'}
+[48.439211] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info\n'}
+[48.439313] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/PKG-INFO\n'}
+[48.439387] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/SOURCES.txt\n'}
+[48.439457] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/dependency_links.txt\n'}
+[48.439527] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/top_level.txt\n'}
+[48.439627] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver\n'}
+[48.439695] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[48.439766] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so\n'}
+[48.439853] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[48.439926] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.440009] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py\n'}
+[48.440196] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.440277] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg\n'}
+[48.440332] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py\n'}
+[48.440408] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py\n'}
+[48.440461] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word_s.c\n'}
+[48.440536] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c\n'}
+[48.440593] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.467503] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Listing '/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver'...\n"}
+[48.467623] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py'...\n"}
+[48.467677] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Listing '/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg'...\n"}
+[48.467725] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py'...\n"}
+[48.467773] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py'...\n"}
+[48.470970] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.471184] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[48.471321] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.471510] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[48.471640] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[48.471813] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[48.471884] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so\n'}
+[48.472004] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so" to ""\n'}
+[48.472098] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.idl\n'}
+[48.472257] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.msg\n'}
+[48.472383] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node\n'}
+[48.476627] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node" to ""\n'}
+[48.476723] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch\n'}
+[48.476805] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/display.launch.py\n'}
+[48.476856] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/xsens_mti_node.launch.py\n'}
+[48.476969] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param\n'}
+[48.477044] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node.yaml\n'}
+[48.477116] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz\n'}
+[48.477170] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz/display.rviz\n'}
+[48.477216] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf\n'}
+[48.477259] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.stl\n'}
+[48.479484] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.stl\n'}
+[48.482101] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.stl\n'}
+[48.482784] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.urdf\n'}
+[48.482938] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.urdf\n'}
+[48.483011] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.urdf\n'}
+[48.483095] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/package_run_dependencies/xsens_mti_ros2_driver\n'}
+[48.483172] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/parent_prefix_path/xsens_mti_ros2_driver\n'}
+[48.483245] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.sh\n'}
+[48.483360] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[48.483432] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.sh\n'}
+[48.483506] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.dsv\n'}
+[48.483579] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.bash\n'}
+[48.483644] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.sh\n'}
+[48.483706] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.zsh\n'}
+[48.483786] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.dsv\n'}
+[48.483885] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv\n'}
+[48.484033] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/packages/xsens_mti_ros2_driver\n'}
+[48.484204] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport.cmake\n'}
+[48.484323] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[48.484454] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[48.484575] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[48.484706] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cppExport.cmake\n'}
+[48.484831] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[48.484954] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[48.485065] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[48.485182] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[48.485289] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport.cmake\n'}
+[48.485389] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[48.485495] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[48.485594] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[48.485700] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport.cmake\n'}
+[48.485799] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[48.485912] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport.cmake\n'}
+[48.486012] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[48.486115] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[48.486212] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[48.486312] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[48.486406] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[48.486504] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[48.486598] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[48.486689] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[48.486787] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig.cmake\n'}
+[48.486862] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig-version.cmake\n'}
+[48.486953] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/mateus/mateus_alonso/ros2_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.xml\n'}
+[48.488790] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[48.524442] (-) TimerEvent: {}
+[48.544409] (xsens_mti_ros2_driver) JobEnded: {'identifier': 'xsens_mti_ros2_driver', 'rc': 0}
+[48.544973] (-) EventReactorShutdown: {}
