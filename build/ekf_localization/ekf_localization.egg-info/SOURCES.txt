@@ -8,7 +8,11 @@ setup.py
 ../../build/ekf_localization/ekf_localization.egg-info/requires.txt
 ../../build/ekf_localization/ekf_localization.egg-info/top_level.txt
 ../../build/ekf_localization/ekf_localization.egg-info/zip-safe
+config/ekf_params.yaml
+config/navsat_transform.yaml
 ekf_localization/__init__.py
+ekf_localization/ekf_node.py
+launch/ekf_localization_launch.py
 resource/ekf_localization
 test/test_copyright.py
 test/test_flake8.py
