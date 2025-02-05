@@ -1,0 +1,17 @@
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/lib/ntrip/ntrip
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip//launch/ntrip_launch.py
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/package_run_dependencies/ntrip
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/parent_prefix_path/ntrip
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.sh
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.dsv
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/path.sh
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/path.dsv
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.bash
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.sh
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.zsh
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.dsv
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/package.dsv
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/packages/ntrip
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig.cmake
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig-version.cmake
+/home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/package.xml

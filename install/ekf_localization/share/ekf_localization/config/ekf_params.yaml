@@ -1,5 +1,1 @@
-ekf_localization_node:
-  ros__parameters:
-    process_noise: 0.01
-    gnss_noise: 0.5
-    imu_noise: 0.1
+/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/config/ekf_params.yaml

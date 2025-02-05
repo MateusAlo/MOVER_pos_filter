@@ -1,0 +1,3 @@
+[console_scripts]
+ps_node = ps_localization.ps_node:main
+

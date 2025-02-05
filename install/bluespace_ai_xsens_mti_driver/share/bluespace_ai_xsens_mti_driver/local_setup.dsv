@@ -1,2 +1,1 @@
-source;share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.sh
-source;share/bluespace_ai_xsens_mti_driver/environment/path.sh
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/ament_cmake_environment_hooks/local_setup.dsv

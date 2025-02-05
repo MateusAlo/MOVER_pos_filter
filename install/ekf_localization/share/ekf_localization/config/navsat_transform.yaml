@@ -1,12 +1,1 @@
-navsat_transform_node:
-  ros__parameters:
-    gps_topic: "/gnss"
-    use_odometry: false
-    broadcast_cartesian_transform: true
-    publish_filtered_gps: true
-    zero_altitude: true
-    yaw_offset: 0.0
-    frame_id: "gps"
-    map_frame: "map"
-    base_link_frame: "base_link"
-    world_frame: "map"
+/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/config/navsat_transform.yaml
