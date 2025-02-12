@@ -20,16 +20,22 @@ class ParticleFilterNode(Node):
         # Publisher for Particle Filter localization result
         self.pf_pub = self.create_publisher(Odometry, '/pf/odom', 10)
 
+        # Declaring Parameters
+        self.declare_parameter('num_particles', 100)
+        self.declare_parameter('process_noise', [0.1, 0.1, 0.1, 0.01, 0.01, 0.01])
+        self.declare_parameter('measurement_noise_gnss', [0.5, 0.5, 0.5])
+        self.declare_parameter('measurement_noise_imu', 0.1)
+
         # Particle Filter state variables
-        self.num_particles = 100 #place holder
+        self.num_particles = self.get_parameter('num_particles').value # Number of particles
         self.particles = np.zeros((self.num_particles, 6))  # [x, y, z, row, pitch, yaw]
         self.weights = np.ones(self.num_particles) / self.num_particles
         self.last_time = self.get_clock().now()
 
         # Particle Filter parameters need to be tuned
-        self.process_noise = np.array([0.1, 0.1, 0.1, 0.01, 0.01, 0.01])
-        self.measurement_noise_gnss = np.array([0.5, 0.5, 0.5])
-        self.measurement_noise_imu = 0.1
+        self.process_noise = np.array(self.get_parameter('process_noise').value)
+        self.measurement_noise_gnss = np.array(self.get_parameter('measurement_noise_gnss').value)
+        self.measurement_noise_imu = self.get_parameter('measurement_noise_imu').value
         self.velocity = 0.0
 
     def gnss_callback(self, msg):

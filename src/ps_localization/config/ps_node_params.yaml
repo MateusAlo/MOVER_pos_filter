@@ -1,0 +1,6 @@
+particle_filter_localization_node:
+  ros__parameters:
+    num_particles: 100
+    process_noise: [0.1, 0.1, 0.1, 0.01, 0.01, 0.01]
+    measurement_noise_gnss: [0.5, 0.5, 0.5]
+    measurement_noise_imu: 0.1
