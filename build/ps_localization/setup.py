@@ -1,1 +1,0 @@
-/home/mateus/mateus_alonso/ros2_ws/src/ps_localization/setup.py

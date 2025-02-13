@@ -1,0 +1,41 @@
+[0.574s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/ps_localization': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/install.log --single-version-externally-managed install_data
+[0.699s] /home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.699s]   warnings.warn(msg)
+[0.774s] running egg_info
+[0.786s] writing ../../build/ps_localization/ps_localization.egg-info/PKG-INFO
+[0.787s] writing dependency_links to ../../build/ps_localization/ps_localization.egg-info/dependency_links.txt
+[0.787s] writing entry points to ../../build/ps_localization/ps_localization.egg-info/entry_points.txt
+[0.787s] writing requirements to ../../build/ps_localization/ps_localization.egg-info/requires.txt
+[0.787s] writing top-level names to ../../build/ps_localization/ps_localization.egg-info/top_level.txt
+[0.812s] reading manifest file '../../build/ps_localization/ps_localization.egg-info/SOURCES.txt'
+[0.812s] Traceback (most recent call last):
+[0.813s]   File "/home/mateus/mateus_alonso/ros2_ws/src/ps_localization/setup.py", line 5, in <module>
+[0.813s]     setup(
+[0.813s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[0.813s]     return distutils.core.setup(**attrs)
+[0.813s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[0.813s]     return run_commands(dist)
+[0.813s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[0.813s]     dist.run_commands()
+[0.813s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 983, in run_commands
+[0.813s]     self.run_command(cmd)
+[0.813s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/dist.py", line 999, in run_command
+[0.814s]     super().run_command(command)
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_command
+[0.814s]     cmd_obj.run()
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[0.814s]     self.find_sources()
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[0.814s]     mm.run()
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[0.814s]     self.prune_file_list()
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[0.814s]     super().prune_file_list()
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list
+[0.814s]     base_dir = self.distribution.get_fullname()
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 272, in get_fullname
+[0.814s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.814s]   File "/home/mateus/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 290, in _distribution_fullname
+[0.814s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.814s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[0.829s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/ps_localization' returned '1': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/install.log --single-version-externally-managed install_data
