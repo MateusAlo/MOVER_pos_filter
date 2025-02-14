@@ -1,7 +1,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu
-from geometry_msgs.msg import PoseWithCovarianceStamped, TwistStamped, Quaternion
+from geometry_msgs.msg import PoseWithCovarianceStamped, TwistStamped
 from nav_msgs.msg import Odometry
 import numpy as np
 
@@ -107,7 +107,11 @@ class ParticleFilterNode(Node):
         odom_msg.pose.pose.position.z = mean_state[2]
         
         quaternion = self.euler_to_quaternion(mean_state[3], mean_state[4], mean_state[5])
-        odom_msg.pose.pose.orientation = Quaternion(*quaternion)
+        odom_msg.pose.pose.orientation.x = quaternion[0]
+        odom_msg.pose.pose.orientation.y = quaternion[1]
+        odom_msg.pose.pose.orientation.z = quaternion[2]
+        odom_msg.pose.pose.orientation.w = quaternion[3]
+        
 
         self.pf_pub.publish(odom_msg)
 

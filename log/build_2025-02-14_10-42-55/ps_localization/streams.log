@@ -1,0 +1,35 @@
+[0.531s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/ps_localization': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/install.log --single-version-externally-managed install_data
+[0.646s] /home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.646s]   warnings.warn(msg)
+[0.723s] running egg_info
+[0.735s] writing ../../build/ps_localization/ps_localization.egg-info/PKG-INFO
+[0.735s] writing dependency_links to ../../build/ps_localization/ps_localization.egg-info/dependency_links.txt
+[0.736s] writing entry points to ../../build/ps_localization/ps_localization.egg-info/entry_points.txt
+[0.736s] writing requirements to ../../build/ps_localization/ps_localization.egg-info/requires.txt
+[0.736s] writing top-level names to ../../build/ps_localization/ps_localization.egg-info/top_level.txt
+[0.761s] reading manifest file '../../build/ps_localization/ps_localization.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/ps_localization/ps_localization.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.762s] copying scripts/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/scripts
+[0.762s] copying scripts/fake_data_publisher.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/scripts
+[0.763s] copying ps_localization/ps_node.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/ps_localization
+[0.763s] copying ps_localization/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/ps_localization
+[0.763s] running install
+[0.767s] running install_lib
+[0.779s] copying /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/scripts/fake_data_publisher.py -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/scripts
+[0.779s] byte-compiling /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/scripts/fake_data_publisher.py to fake_data_publisher.cpython-310.pyc
+[0.780s] running install_data
+[0.780s] copying resource/ps_localization -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ament_index/resource_index/packages
+[0.780s] copying package.xml -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization
+[0.781s] copying launch/ps_node_launch.py -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/launch
+[0.781s] copying config/ps_node_params.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/config
+[0.781s] copying scripts/fake_data_publisher.py -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/scripts
+[0.781s] running install_egg_info
+[0.794s] removing '/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info' (and everything under it)
+[0.794s] Copying ../../build/ps_localization/ps_localization.egg-info to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info
+[0.795s] running install_scripts
+[0.892s] Installing fake_data_publisher script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+[0.892s] Installing ps_node script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+[0.892s] writing list of installed files to '/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/install.log'
+[0.907s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/ps_localization' returned '0': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ps_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/install.log --single-version-externally-managed install_data

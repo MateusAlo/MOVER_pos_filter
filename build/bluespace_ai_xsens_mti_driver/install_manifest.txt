@@ -1,1 +1,0 @@
-/home/mateus/mateus_alonso/ros2_ws/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node

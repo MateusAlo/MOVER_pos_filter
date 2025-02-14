@@ -1,1 +1,0 @@
-/home/mateus/mateus_alonso/ros2_ws/build/ntrip/ament_cmake_environment_hooks/local_setup.bash

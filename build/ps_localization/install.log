@@ -1,11 +1,16 @@
+/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/scripts/__init__.py
+/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/scripts/fake_data_publisher.py
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization/ps_node.py
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization/__init__.py
+/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/scripts/__pycache__/__init__.cpython-310.pyc
+/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/scripts/__pycache__/fake_data_publisher.cpython-310.pyc
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization/__pycache__/ps_node.cpython-310.pyc
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization/__pycache__/__init__.cpython-310.pyc
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ament_index/resource_index/packages/ps_localization
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/package.xml
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/launch/ps_node_launch.py
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/config/ps_node_params.yaml
+/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/scripts/fake_data_publisher.py
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info/PKG-INFO
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info/dependency_links.txt
@@ -13,4 +18,5 @@
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info/zip-safe
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info/entry_points.txt
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info/top_level.txt
+/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization/fake_data_publisher
 /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization/ps_node

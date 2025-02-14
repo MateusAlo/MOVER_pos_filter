@@ -1,1 +1,0 @@
-/home/mateus/mateus_alonso/ros2_ws/src/ntrip/launch/ntrip_launch.py

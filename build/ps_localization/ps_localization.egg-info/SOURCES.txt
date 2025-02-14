@@ -13,6 +13,8 @@ launch/ps_node_launch.py
 ps_localization/__init__.py
 ps_localization/ps_node.py
 resource/ps_localization
+scripts/__init__.py
+scripts/fake_data_publisher.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

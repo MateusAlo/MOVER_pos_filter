@@ -1,2 +1,3 @@
 [console_scripts]
+fake_data_publisher = scripts.fake_data_publisher:main
 ps_node = ps_localization.ps_node:main

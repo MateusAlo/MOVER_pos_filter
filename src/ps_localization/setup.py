@@ -11,7 +11,8 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/launch', ['launch/ps_node_launch.py']),
-        ('share/' + package_name + '/config', ['config/ps_node_params.yaml'])
+        ('share/' + package_name + '/config', ['config/ps_node_params.yaml']),
+        ('share/' + package_name + '/scripts',['scripts/fake_data_publisher.py'])
 
     ],
     install_requires=['setuptools'],
@@ -24,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             "ps_node = ps_localization.ps_node:main",
+            "fake_data_publisher = scripts.fake_data_publisher:main"
         ],
     },
 )
