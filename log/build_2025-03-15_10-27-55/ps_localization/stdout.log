@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing ps_localization.egg-info/PKG-INFO
+writing dependency_links to ps_localization.egg-info/dependency_links.txt
+writing entry points to ps_localization.egg-info/entry_points.txt
+writing requirements to ps_localization.egg-info/requires.txt
+writing top-level names to ps_localization.egg-info/top_level.txt
+reading manifest file 'ps_localization.egg-info/SOURCES.txt'
+writing manifest file 'ps_localization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps-localization.egg-link (link to .)
+Installing fake_data_publisher script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+Installing ps_node script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+
+Installed /home/mateus/mateus_alonso/ros2_ws/build/ps_localization
+running symlink_data

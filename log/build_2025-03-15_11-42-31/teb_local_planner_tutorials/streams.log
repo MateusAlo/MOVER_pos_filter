@@ -1,0 +1,41 @@
+[0.334s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/build/teb_local_planner_tutorials': /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/teb_local_planner_tutorials -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/install/teb_local_planner_tutorials
+[0.338s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.338s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.338s]   CMake.
+[0.338s] 
+[0.338s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.338s]   CMake that the project does not need compatibility with older versions.
+[0.338s] 
+[0.338s] [0m
+[0.457s] -- The C compiler identification is GNU 11.4.0
+[0.638s] -- The CXX compiler identification is GNU 11.4.0
+[0.645s] -- Detecting C compiler ABI info
+[0.710s] -- Detecting C compiler ABI info - done
+[0.717s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.718s] -- Detecting C compile features
+[0.718s] -- Detecting C compile features - done
+[0.721s] -- Detecting CXX compiler ABI info
+[0.785s] -- Detecting CXX compiler ABI info - done
+[0.792s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.793s] -- Detecting CXX compile features
+[0.793s] -- Detecting CXX compile features - done
+[0.801s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.801s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.801s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.801s]   CMake did not find one.
+[0.801s] 
+[0.802s]   Could not find a package configuration file provided by "catkin" with any
+[0.802s]   of the following names:
+[0.802s] 
+[0.802s]     catkinConfig.cmake
+[0.802s]     catkin-config.cmake
+[0.802s] 
+[0.802s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.802s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.802s]   provides a separate development package or SDK, be sure it has been
+[0.802s]   installed.
+[0.803s] 
+[0.803s] -- Configuring incomplete, errors occurred!
+[0.803s] See also "/home/mateus/mateus_alonso/ros2_ws/build/teb_local_planner_tutorials/CMakeFiles/CMakeOutput.log".
+[0.803s] [0m
+[0.804s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/build/teb_local_planner_tutorials' returned '1': /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/teb_local_planner_tutorials -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/install/teb_local_planner_tutorials

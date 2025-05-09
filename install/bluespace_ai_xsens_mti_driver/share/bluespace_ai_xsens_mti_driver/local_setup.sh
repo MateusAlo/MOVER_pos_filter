@@ -1,0 +1,1 @@
+/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver/ament_cmake_environment_hooks/local_setup.sh

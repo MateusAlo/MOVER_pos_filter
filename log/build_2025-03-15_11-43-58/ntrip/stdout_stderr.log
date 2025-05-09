@@ -1,0 +1,20 @@
+[100%] Built target ntrip
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/lib/ntrip/ntrip
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip//launch/ntrip_launch.py
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/package_run_dependencies/ntrip
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/parent_prefix_path/ntrip
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.sh
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/path.sh
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/environment/path.dsv
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.bash
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.sh
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.zsh
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/local_setup.dsv
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/package.dsv
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ament_index/resource_index/packages/ntrip
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig.cmake
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/cmake/ntripConfig-version.cmake
+-- Symlinking: /home/mateus/mateus_alonso/ros2_ws/install/ntrip/share/ntrip/package.xml

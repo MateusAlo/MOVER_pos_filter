@@ -1,0 +1,33 @@
+[0.629s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/build/ps_localization': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build --no-deps symlink_data
+[0.753s] /home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.753s]   warnings.warn(msg)
+[0.893s] running develop
+[0.893s] /home/mateus/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.893s] !!
+[0.893s] 
+[0.893s]         ********************************************************************************
+[0.893s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.893s]         Instead, use pypa/build, pypa/installer or other
+[0.894s]         standards-based tools.
+[0.894s] 
+[0.894s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.894s]         ********************************************************************************
+[0.894s] 
+[0.894s] !!
+[0.894s]   easy_install.initialize_options(self)
+[1.082s] running egg_info
+[1.094s] writing ps_localization.egg-info/PKG-INFO
+[1.095s] writing dependency_links to ps_localization.egg-info/dependency_links.txt
+[1.095s] writing entry points to ps_localization.egg-info/entry_points.txt
+[1.095s] writing requirements to ps_localization.egg-info/requires.txt
+[1.095s] writing top-level names to ps_localization.egg-info/top_level.txt
+[1.122s] reading manifest file 'ps_localization.egg-info/SOURCES.txt'
+[1.124s] writing manifest file 'ps_localization.egg-info/SOURCES.txt'
+[1.138s] running build_ext
+[1.138s] Creating /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps-localization.egg-link (link to .)
+[1.139s] Installing fake_data_publisher script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+[1.139s] Installing ps_node script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+[1.140s] 
+[1.140s] Installed /home/mateus/mateus_alonso/ros2_ws/build/ps_localization
+[1.140s] running symlink_data
+[1.162s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/build/ps_localization' returned '0': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build --no-deps symlink_data

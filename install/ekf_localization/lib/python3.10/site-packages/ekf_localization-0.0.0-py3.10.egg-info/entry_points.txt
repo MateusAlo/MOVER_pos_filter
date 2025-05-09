@@ -1,0 +1,2 @@
+[console_scripts]
+ekf_node = ekf_localization.ekf_node:main

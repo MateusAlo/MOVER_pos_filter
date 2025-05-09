@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8183a4c6ae614f521a9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bluespace_ai_xsens_mti_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bluespace_ai_xsens_mti_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bluespace_ai_xsens_mti_driver_uninstall-2b094d51c1176c1d02ab.json",
+					"name" : "bluespace_ai_xsens_mti_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-76bc4b49aac7167d99df.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xsens_mti_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xsens_mti_node-b829a44cf3481502de40.json",
+					"name" : "xsens_mti_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mateus/mateus_alonso/ros2_ws/build/bluespace_ai_xsens_mti_driver",
+		"source" : "/home/mateus/mateus_alonso/ros2_ws/src/bluespace_ai_xsens_ros_mti_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

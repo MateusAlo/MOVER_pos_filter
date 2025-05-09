@@ -1,0 +1,30 @@
+[0.732s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/ekf_localization': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ekf_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/install.log --single-version-externally-managed install_data
+[0.846s] /home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[0.846s]   warnings.warn(msg)
+[0.919s] running egg_info
+[0.932s] writing ../../build/ekf_localization/ekf_localization.egg-info/PKG-INFO
+[0.932s] writing dependency_links to ../../build/ekf_localization/ekf_localization.egg-info/dependency_links.txt
+[0.933s] writing entry points to ../../build/ekf_localization/ekf_localization.egg-info/entry_points.txt
+[0.933s] writing requirements to ../../build/ekf_localization/ekf_localization.egg-info/requires.txt
+[0.933s] writing top-level names to ../../build/ekf_localization/ekf_localization.egg-info/top_level.txt
+[0.959s] reading manifest file '../../build/ekf_localization/ekf_localization.egg-info/SOURCES.txt'
+[0.960s] writing manifest file '../../build/ekf_localization/ekf_localization.egg-info/SOURCES.txt'
+[0.960s] running build
+[0.960s] running build_py
+[0.960s] copying ekf_localization/ekf_node.py -> /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization
+[0.961s] copying ekf_localization/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization
+[0.961s] running install
+[0.965s] running install_lib
+[0.978s] running install_data
+[0.978s] copying resource/ekf_localization -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ament_index/resource_index/packages
+[0.978s] copying package.xml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization
+[0.978s] copying launch/ekf_localization_launch.py -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/launch
+[0.978s] copying config/navsat_transform.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/config
+[0.979s] copying config/ekf_params.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/config
+[0.979s] running install_egg_info
+[0.992s] removing '/home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization-0.0.0-py3.10.egg-info' (and everything under it)
+[0.993s] Copying ../../build/ekf_localization/ekf_localization.egg-info to /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization-0.0.0-py3.10.egg-info
+[0.993s] running install_scripts
+[1.093s] Installing ekf_node script to /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/ekf_localization
+[1.093s] writing list of installed files to '/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/install.log'
+[1.110s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/ekf_localization' returned '0': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ekf_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/install.log --single-version-externally-managed install_data

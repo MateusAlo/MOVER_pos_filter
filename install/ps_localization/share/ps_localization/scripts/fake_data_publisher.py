@@ -42,6 +42,9 @@ class FakeDataPublisher(Node):
         self.prev_time = self.get_clock().now()
 
     def timer_callback(self):
+
+        self.get_logger().info('Publishing fake data...')
+
         current_time = self.get_clock().now()
         dt = (current_time - self.prev_time).nanoseconds * 1e-9
         if dt == 0:
@@ -134,10 +137,14 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        pass
-
-    node.destroy_node()
-    rclpy.shutdown()
+        node.get_logger().info('Keyboard Interrupt detected, shutting down...')
+    finally:
+        node.destroy_node()
+        try:
+            rclpy.shutdown()
+        except Exception as e:
+            # This exception occurs if shutdown was already called
+            node.get_logger().info('Shutdown already called: {}'.format(e))
 
 
 if __name__ == '__main__':

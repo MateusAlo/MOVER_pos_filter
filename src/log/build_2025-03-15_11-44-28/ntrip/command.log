@@ -1,0 +1,6 @@
+Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/ntrip -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/src/install/ntrip
+Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/ntrip -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/src/install/ntrip
+Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/src/build/ntrip -- -j12 -l12
+Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/src/build/ntrip -- -j12 -l12
+Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mateus/mateus_alonso/ros2_ws/src/build/ntrip
+Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mateus/mateus_alonso/ros2_ws/src/build/ntrip

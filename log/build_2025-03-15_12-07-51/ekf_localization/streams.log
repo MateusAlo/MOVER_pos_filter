@@ -1,0 +1,40 @@
+[0.952s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build
+[1.088s] /home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.088s]   warnings.warn(msg)
+[1.212s] running develop
+[1.398s] Removing /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf-localization.egg-link (link to .)
+[1.430s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization' returned '0': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build
+[1.431s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/ekf_localization': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/install.log --single-version-externally-managed install_data --force
+[1.570s] /home/mateus/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[1.570s]   warnings.warn(msg)
+[1.651s] running egg_info
+[1.664s] writing ../../build/ekf_localization/ekf_localization.egg-info/PKG-INFO
+[1.664s] writing dependency_links to ../../build/ekf_localization/ekf_localization.egg-info/dependency_links.txt
+[1.664s] writing entry points to ../../build/ekf_localization/ekf_localization.egg-info/entry_points.txt
+[1.665s] writing requirements to ../../build/ekf_localization/ekf_localization.egg-info/requires.txt
+[1.665s] writing top-level names to ../../build/ekf_localization/ekf_localization.egg-info/top_level.txt
+[1.691s] reading manifest file '../../build/ekf_localization/ekf_localization.egg-info/SOURCES.txt'
+[1.693s] writing manifest file '../../build/ekf_localization/ekf_localization.egg-info/SOURCES.txt'
+[1.693s] running build
+[1.693s] running build_py
+[1.693s] copying ekf_localization/ekf_node.py -> /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization
+[1.693s] copying ekf_localization/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization
+[1.693s] running install
+[1.697s] running install_lib
+[1.711s] creating /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization
+[1.711s] copying /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization/ekf_node.py -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization
+[1.711s] copying /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization
+[1.711s] byte-compiling /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization/ekf_node.py to ekf_node.cpython-310.pyc
+[1.712s] byte-compiling /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization/__init__.py to __init__.cpython-310.pyc
+[1.712s] running install_data
+[1.712s] copying resource/ekf_localization -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ament_index/resource_index/packages
+[1.712s] copying package.xml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization
+[1.713s] copying launch/ekf_localization_launch.py -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/launch
+[1.713s] copying config/navsat_transform.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/config
+[1.713s] copying config/ekf_params.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/config
+[1.713s] running install_egg_info
+[1.727s] Copying ../../build/ekf_localization/ekf_localization.egg-info to /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization-0.0.0-py3.10.egg-info
+[1.728s] running install_scripts
+[1.834s] Installing ekf_node script to /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/ekf_localization
+[1.834s] writing list of installed files to '/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/install.log'
+[1.851s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/ekf_localization' returned '0': PYTHONPATH=/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ekf_localization build --build-base /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build install --record /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/install.log --single-version-externally-managed install_data --force

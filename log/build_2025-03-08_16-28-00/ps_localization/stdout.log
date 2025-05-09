@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/ps_localization/ps_localization.egg-info/PKG-INFO
+writing dependency_links to ../../build/ps_localization/ps_localization.egg-info/dependency_links.txt
+writing entry points to ../../build/ps_localization/ps_localization.egg-info/entry_points.txt
+writing requirements to ../../build/ps_localization/ps_localization.egg-info/requires.txt
+writing top-level names to ../../build/ps_localization/ps_localization.egg-info/top_level.txt
+reading manifest file '../../build/ps_localization/ps_localization.egg-info/SOURCES.txt'
+writing manifest file '../../build/ps_localization/ps_localization.egg-info/SOURCES.txt'
+running build
+running build_py
+copying scripts/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/scripts
+copying scripts/fake_data_publisher.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/scripts
+copying ps_localization/ps_node.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/ps_localization
+copying ps_localization/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/ps_localization
+running install
+running install_lib
+copying /home/mateus/mateus_alonso/ros2_ws/build/ps_localization/build/lib/ps_localization/ps_node.py -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization
+byte-compiling /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization/ps_node.py to ps_node.cpython-310.pyc
+running install_data
+copying resource/ps_localization -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization
+copying launch/ps_node_launch.py -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/launch
+copying config/ps_node_params.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/config
+copying scripts/fake_data_publisher.py -> /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/share/ps_localization/scripts
+running install_egg_info
+removing '/home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ps_localization/ps_localization.egg-info to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/python3.10/site-packages/ps_localization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fake_data_publisher script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+Installing ps_node script to /home/mateus/mateus_alonso/ros2_ws/install/ps_localization/lib/ps_localization
+writing list of installed files to '/home/mateus/mateus_alonso/ros2_ws/build/ps_localization/install.log'

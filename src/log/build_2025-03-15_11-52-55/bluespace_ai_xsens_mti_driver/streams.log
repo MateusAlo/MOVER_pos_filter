@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver -- -j12 -l12
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target xsens_mti_node[0m
+[0.192s] [100%] Built target xsens_mti_node
+[0.355s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver -- -j12 -l12
+[0.381s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver
+[0.386s] -- Install configuration: ""
+[0.387s] -- Execute custom install script
+[0.387s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/display.launch.py
+[0.388s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/launch/xsens_mti_node.launch.py
+[0.388s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/param/xsens_mti_node.yaml
+[0.389s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/rviz/display.rviz
+[0.389s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.stl
+[0.389s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_1.urdf
+[0.390s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.stl
+[0.390s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_10.urdf
+[0.390s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.stl
+[0.390s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/urdf/MTi_6xx.urdf
+[0.391s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/package_run_dependencies/bluespace_ai_xsens_mti_driver
+[0.391s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/parent_prefix_path/bluespace_ai_xsens_mti_driver
+[0.391s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.sh
+[0.391s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/ament_prefix_path.dsv
+[0.392s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.sh
+[0.392s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/environment/path.dsv
+[0.392s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.bash
+[0.392s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.sh
+[0.392s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.zsh
+[0.393s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/local_setup.dsv
+[0.393s] -- Symlinking: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.dsv
+[0.399s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/ament_index/resource_index/packages/bluespace_ai_xsens_mti_driver
+[0.399s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig.cmake
+[0.400s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/cmake/bluespace_ai_xsens_mti_driverConfig-version.cmake
+[0.400s] -- Up-to-date symlink: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/share/bluespace_ai_xsens_mti_driver/package.xml
+[0.401s] -- Up-to-date: /home/mateus/mateus_alonso/ros2_ws/src/install/bluespace_ai_xsens_mti_driver/lib/bluespace_ai_xsens_mti_driver/xsens_mti_node
+[0.412s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver

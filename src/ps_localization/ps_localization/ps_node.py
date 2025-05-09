@@ -38,7 +38,11 @@ class ParticleFilterNode(Node):
         self.measurement_noise_imu = self.get_parameter('measurement_noise_imu').value
         self.velocity = 0.0
 
+        self.get_logger().info("Particle Filter Node Initialized")
+
     def gnss_callback(self, msg):
+        self.get_logger().info(f"GNSS Received: x={msg.pose.pose.position.x}, y={msg.pose.pose.position.y}") #debug
+
         z = np.array([msg.pose.pose.position.x, msg.pose.pose.position.y, msg.pose.pose.position.z]) #gnss measurement
         R = self.measurement_noise_gnss
     
@@ -56,26 +60,34 @@ class ParticleFilterNode(Node):
         angular_velocity[2] = msg.angular_velocity.z
         v = self.velocity
 
+        # Extract covariance from the IMU message
+        imu_covariance = np.array(msg.angular_velocity_covariance).reshape(3, 3)
 
-        self.pf_predict(dt, angular_velocity,v)
+        self.get_logger().info(f"IMU Received: angular_velocity={angular_velocity}, dt={dt}, covariance={imu_covariance}")
+
+        self.pf_predict(dt, angular_velocity, v, imu_covariance)
 
     def velocity_callback(self, msg):
         # Getting velocity from the filtered velocity topic
         v = msg.twist.linear.x
         self.velocity = v
+        self.get_logger().info(f"Velocity Received: v={v}")
 
-    def pf_predict(self, dt, angular_velocity, v):
-        # Add process noise
-        noise = np.random.normal(0, self.process_noise, (self.num_particles, 6))
+    def pf_predict(self, dt, angular_velocity, v, imu_covariance):
+        # Add process noise using IMU covariance
+        noise = np.random.multivariate_normal(np.zeros(3), imu_covariance, self.num_particles)
+        noise = np.hstack((noise, np.zeros((self.num_particles, 3))))  # Extend to 6D noise
+
         # Model for the motion in 3D using noise
-        self.particles[:, 0] +=  np.cos(self.particles[:,4]) * np.cos(self.particles[:,5]) * v * dt + noise[:, 0]
-        self.particles[:, 1] +=  np.cos(self.particles[:,4]) * np.sin(self.particles[:,5]) * v * dt + noise[:, 1]
-        self.particles[:, 2] +=  np.sin(self.particles[:,4]) * v * dt + noise[:, 2]
+        self.particles[:, 0] += np.cos(self.particles[:, 4]) * np.cos(self.particles[:, 5]) * v * dt + noise[:, 0]
+        self.particles[:, 1] += np.cos(self.particles[:, 4]) * np.sin(self.particles[:, 5]) * v * dt + noise[:, 1]
+        self.particles[:, 2] += np.sin(self.particles[:, 4]) * v * dt + noise[:, 2]
         self.particles[:, 3] += angular_velocity[0] * dt + noise[:, 3]
         self.particles[:, 4] += angular_velocity[1] * dt + noise[:, 4]
         self.particles[:, 5] += angular_velocity[2] * dt + noise[:, 5]
 
-    
+        self.get_logger().info(f"Particles Predicted: {self.particles}")
+
     def pf_update(self, z, R):
         # Compute weights based on GNSS measurement
         for i in range(self.num_particles):
@@ -93,9 +105,11 @@ class ParticleFilterNode(Node):
         self.particles = self.particles[indices]
         self.weights.fill(1.0 / self.num_particles)
 
+        self.get_logger().info(f"Particles Updated: {self.particles}")
+
         # Publish the estimated state
         self.publish_state()
-    #Update for new state vector
+
     def publish_state(self):
         # Estimate state as the mean of the particles
         mean_state = np.average(self.particles, axis=0, weights=self.weights)
@@ -112,11 +126,11 @@ class ParticleFilterNode(Node):
         odom_msg.pose.pose.orientation.z = quaternion[2]
         odom_msg.pose.pose.orientation.w = quaternion[3]
         
+        self.get_logger().info(f"Publishing State: {mean_state}")
 
         self.pf_pub.publish(odom_msg)
 
     def euler_to_quaternion(self, roll, pitch, yaw):
-        
         qx = np.sin(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) - np.cos(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
         qy = np.cos(roll/2) * np.sin(pitch/2) * np.cos(yaw/2) + np.sin(roll/2) * np.cos(pitch/2) * np.sin(yaw/2)
         qz = np.cos(roll/2) * np.cos(pitch/2) * np.sin(yaw/2) - np.sin(roll/2) * np.sin(pitch/2) * np.cos(yaw/2)

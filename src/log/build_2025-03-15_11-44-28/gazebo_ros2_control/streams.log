@@ -1,0 +1,233 @@
+[0.019s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/src/install/gazebo_ros2_control
+[0.197s] -- The C compiler identification is GNU 11.4.0
+[0.198s] -- The CXX compiler identification is GNU 11.4.0
+[0.198s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.241s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.243s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.571s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.642s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.679s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.684s] -- Found controller_manager: 2.43.1 (/opt/ros/humble/share/controller_manager/cmake)
+[0.728s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.731s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.738s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.975s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.977s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.994s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.001s] -- Looking for pthread.h
+[1.071s] -- Looking for pthread.h - found
+[1.071s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.145s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.146s] -- Found Threads: TRUE  
+[1.287s] -- Found control_toolbox: 3.2.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[1.298s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.327s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[1.337s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.339s] -- Checking for module 'bullet>=2.82'
+[1.349s] --   Found bullet, version 3.05
+[1.448s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.499s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.544s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.586s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.627s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.633s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.650s] -- Searching for dependencies of ignition-math6
+[1.653s] -- Looking for OGRE...
+[1.653s] -- OGRE_PREFIX_WATCH changed.
+[1.658s] -- Checking for module 'OGRE'
+[1.674s] --   Found OGRE, version 1.9.0
+[1.729s] -- Found Ogre Ghadamon (1.9.0)
+[1.767s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.780s] -- Looking for OGRE_Paging...
+[1.798s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.798s] -- Looking for OGRE_Terrain...
+[1.811s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.811s] -- Looking for OGRE_Property...
+[1.831s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.831s] -- Looking for OGRE_RTShaderSystem...
+[1.845s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.845s] -- Looking for OGRE_Volume...
+[1.864s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.864s] -- Looking for OGRE_Overlay...
+[1.876s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.081s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.084s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.084s] -- Searching for dependencies of ignition-transport8
+[2.102s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.110s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.117s] -- Checking for module 'libzmq >= 4'
+[2.135s] --   Found libzmq , version 4.3.4
+[2.182s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.191s] -- Checking for module 'uuid'
+[2.208s] --   Found uuid, version 2.37.2
+[2.255s] -- Found UUID: TRUE  
+[2.257s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.258s] -- Searching for dependencies of ignition-msgs5
+[2.280s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.290s] -- Checking for module 'tinyxml2'
+[2.307s] --   Found tinyxml2, version 9.0.0
+[2.359s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.364s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.364s] -- Searching for dependencies of ignition-common3
+[2.365s] -- Looking for dlfcn.h - found
+[2.367s] -- Looking for libdl - found
+[2.369s] -- Found DL: TRUE  
+[2.387s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.388s] -- Searching for <ignition-common3> component [graphics]
+[2.391s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.392s] -- Searching for dependencies of ignition-common3-graphics
+[2.392s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.400s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.401s] -- Searching for dependencies of ignition-fuel_tools4
+[2.513s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.528s] -- Checking for module 'jsoncpp'
+[2.545s] --   Found jsoncpp, version 1.9.5
+[2.587s] -- Found JSONCPP: TRUE  
+[2.592s] -- Checking for module 'libzip'
+[2.609s] --   Found libzip, version 1.7.3
+[2.654s] -- Found ZIP: TRUE  
+[2.655s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.655s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.656s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.662s] -- Gazebo version: 11.10
+[2.662s] -- Checking for module 'tbb'
+[2.682s] --   Found tbb, version 2021.5.0
+[2.729s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[2.737s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[2.777s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.780s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.851s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.852s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.852s] -- Configured cppcheck include dirs: /home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[2.852s] -- Configured cppcheck exclude dirs and/or files: 
+[2.853s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.853s] -- Configured cpplint exclude dirs and/or files: 
+[2.854s] -- Added test 'lint_cmake' to check CMake code style
+[2.854s] -- Added test 'uncrustify' to check C / C++ code style
+[2.854s] -- Configured uncrustify additional arguments: 
+[2.855s] -- Added test 'xmllint' to check XML markup files
+[2.857s] -- Configuring done
+[2.960s] -- Generating done
+[2.963s] -- Build files have been written to: /home/mateus/mateus_alonso/ros2_ws/src/build/gazebo_ros2_control
+[2.979s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mateus/mateus_alonso/ros2_ws/src/install/gazebo_ros2_control
+[2.980s] Invoking command in '/home/mateus/mateus_alonso/ros2_ws/src/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/src/build/gazebo_ros2_control -- -j12 -l12
+[3.024s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[3.032s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[10.799s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kbool gazebo_ros2_control::GazeboSystem::extractPID(const string&, const hardware_interface::ComponentInfo&, control_toolbox::Pid&)[m[K’:
+[10.799s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:243:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass control_toolbox::Pid[m[K’ has no member named ‘[01m[Kinitialize[m[K’
+[10.799s]   243 |     pid.[01;31m[Kinitialize[m[K(kp, ki, kd, max_integral_error, min_integral_error, antiwindup);
+[10.799s]       |         [01;31m[K^~~~~~~~~~[m[K
+[10.804s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kbool gazebo_ros2_control::GazeboSystem::extractPIDFromParameters(const string&, const string&, control_toolbox::Pid&)[m[K’:
+[10.805s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:309:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass control_toolbox::Pid[m[K’ has no member named ‘[01m[Kinitialize[m[K’
+[10.805s]   309 |     pid.[01;31m[Kinitialize[m[K(kp, ki, kd, max_integral_error, min_integral_error, antiwindup);
+[10.805s]       |         [01;31m[K^~~~~~~~~~[m[K
+[10.807s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvoid gazebo_ros2_control::GazeboSystem::registerJoints(const hardware_interface::HardwareInfo&, gazebo::physics::ModelPtr)[m[K’:
+[10.807s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:353:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+[10.807s]   353 |       hardware_info.[01;31m[Kmimic_joints[m[K.begin(),
+[10.807s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[10.807s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:354:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+[10.807s]   354 |       hardware_info.[01;31m[Kmimic_joints[m[K.end(),
+[10.807s]       |                     [01;31m[K^~~~~~~~~~~~[m[K
+[10.807s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:355:37:[m[K [01;31m[Kerror: [m[K‘[01m[KMimicJoint[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+[10.808s]   355 |       [j](const hardware_interface::[01;31m[KMimicJoint[m[K & mj) {
+[10.808s]       |                                     [01;31m[K^~~~~~~~~~[m[K
+[10.808s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In lambda function:
+[10.808s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:357:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[10.808s]   357 |       })[01;31m[K;[m[K
+[10.808s]       |         [01;31m[K^[m[K
+[10.808s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvoid gazebo_ros2_control::GazeboSystem::registerJoints(const hardware_interface::HardwareInfo&, gazebo::physics::ModelPtr)[m[K’:
+[10.808s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:357:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[10.808s]   357 |       })[01;31m[K;[m[K
+[10.808s]       |         [01;31m[K^[m[K
+[10.808s]       |         [32m[K)[m[K
+[10.809s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:352:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[10.809s]   352 |     auto it = std::find_if[01;36m[K([m[K
+[10.809s]       |                           [01;36m[K^[m[K
+[10.809s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:359:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+[10.809s]   359 |     if (it != hardware_info.[01;31m[Kmimic_joints[m[K.end()) {
+[10.809s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[10.817s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:529:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+[10.817s]   529 |   for (const auto & mimic_joint : hardware_info.[01;31m[Kmimic_joints[m[K) {
+[10.817s]       |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[10.847s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::perform_command_mode_switch(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’:
+[10.847s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:754:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+[10.847s]   754 |   for (const auto & mimic_joint : this->info_.[01;31m[Kmimic_joints[m[K) {
+[10.847s]       |                                               [01;31m[K^~~~~~~~~~~~[m[K
+[10.850s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[10.850s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:812:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+[10.850s]   812 |   for (const auto & mimic_joint : this->info_.[01;31m[Kmimic_joints[m[K) {
+[10.850s]       |                                               [01;31m[K^~~~~~~~~~~~[m[K
+[10.850s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:834:48:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<control_toolbox::Pid>, control_toolbox::Pid>::value_type[m[K’ {aka ‘[01m[Kclass control_toolbox::Pid[m[K’} has no member named ‘[01m[Kcompute_command[m[K’; did you mean ‘[01m[KcomputeCommand[m[K’?
+[10.850s]   834 |         double cmd = this->dataPtr->vel_pid[j].[01;31m[Kcompute_command[m[K(vel_goal - vel, sim_period);
+[10.850s]       |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.850s]       |                                                [32m[KcomputeCommand[m[K
+[10.851s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:840:48:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<control_toolbox::Pid>, control_toolbox::Pid>::value_type[m[K’ {aka ‘[01m[Kclass control_toolbox::Pid[m[K’} has no member named ‘[01m[Kcompute_command[m[K’; did you mean ‘[01m[KcomputeCommand[m[K’?
+[10.851s]   840 |         double cmd = this->dataPtr->pos_pid[j].[01;31m[Kcompute_command[m[K(pos_goal - pos, sim_period);
+[10.851s]       |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.851s]       |                                                [32m[KcomputeCommand[m[K
+[11.290s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:82:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool gazebo_ros2_control::GazeboResourceManager::load_and_initialize_components(const string&, unsigned int)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[11.290s]    82 |   bool [01;31m[Kload_and_initialize_components[m[K(
+[11.290s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.291s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In constructor ‘[01m[Kgazebo_ros2_control::GazeboResourceManager::GazeboResourceManager(rclcpp::Node::SharedPtr&, gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[11.291s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:72:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Khardware_interface::ResourceManager::ResourceManager(rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr)[m[K’
+[11.291s]    72 |     logger_(node->get_logger().get_child("GazeboResourceManager")[01;31m[K)[m[K
+[11.291s]       |                                                                  [01;31m[K^[m[K
+[11.291s] In file included from [01m[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:44[m[K,
+[11.291s]                  from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:42[m[K,
+[11.291s]                  from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:44[m[K:
+[11.291s] [01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:66:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ResourceManager::ResourceManager(const string&, bool, bool)[m[K’
+[11.291s]    66 |   explicit [01;36m[KResourceManager[m[K(
+[11.292s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.292s] [01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:67:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::node_interfaces::NodeClockInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[11.292s]    67 |     [01;36m[Kconst std::string & urdf[m[K, bool validate_interfaces = true, bool activate_all = false);
+[11.292s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[11.292s] [01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:49:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ResourceManager::ResourceManager()[m[K’
+[11.292s]    49 |   [01;36m[KResourceManager[m[K();
+[11.292s]       |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[11.292s] [01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:49:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[11.339s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kbool gazebo_ros2_control::GazeboResourceManager::load_and_initialize_components(const string&, unsigned int)[m[K’:
+[11.339s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomponents_are_loaded_and_initialized_[m[K’ was not declared in this scope
+[11.339s]    86 |     [01;31m[Kcomponents_are_loaded_and_initialized_[m[K = true;
+[11.340s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.342s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:91:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+[11.342s]    91 |       std::string robot_hw_sim_type_str_ = individual_hardware_info.[01;31m[Khardware_plugin_name[m[K;
+[11.342s]       |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.349s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:98:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::recursive_mutex hardware_interface::ResourceManager::resource_interfaces_lock_[m[K’ is private within this context
+[11.349s]    98 |       std::scoped_lock guard([01;31m[Kresource_interfaces_lock_[m[K, claimed_command_interfaces_lock_);
+[11.349s]       |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.349s] In file included from [01m[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:44[m[K,
+[11.349s]                  from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:42[m[K,
+[11.349s]                  from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:44[m[K:
+[11.350s] [01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:422:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[11.350s]   422 |   mutable std::recursive_mutex [01;36m[Kresource_interfaces_lock_[m[K;
+[11.350s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.350s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:98:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::recursive_mutex hardware_interface::ResourceManager::claimed_command_interfaces_lock_[m[K’ is private within this context
+[11.350s]    98 |       std::scoped_lock guard(resource_interfaces_lock_, [01;31m[Kclaimed_command_interfaces_lock_[m[K);
+[11.350s]       |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.350s] In file included from [01m[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:44[m[K,
+[11.350s]                  from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:42[m[K,
+[11.350s]                  from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:44[m[K:
+[11.350s] [01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:423:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+[11.350s]   423 |   mutable std::recursive_mutex [01;36m[Kclaimed_command_interfaces_lock_[m[K;
+[11.350s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.397s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_ros2_control::GazeboRosControlPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[11.397s] [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:397:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class controller_manager::ControllerManager[m[K’ {aka ‘[01m[Kclass controller_manager::ControllerManager[m[K’} has no member named ‘[01m[Kis_resource_manager_initialized[m[K’
+[11.398s]   397 |   while (!impl_->controller_manager_->[01;31m[Kis_resource_manager_initialized[m[K()) {
+[11.398s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.232s] gmake[2]: *** [CMakeFiles/gazebo_hardware_plugins.dir/build.make:76: CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o] Error 1
+[12.232s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gazebo_hardware_plugins.dir/all] Error 2
+[12.232s] gmake[1]: *** Waiting for unfinished jobs....
+[13.018s] gmake[2]: *** [CMakeFiles/gazebo_ros2_control.dir/build.make:76: CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o] Error 1
+[13.019s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gazebo_ros2_control.dir/all] Error 2
+[13.019s] gmake: *** [Makefile:146: all] Error 2
+[13.020s] Invoked command in '/home/mateus/mateus_alonso/ros2_ws/src/build/gazebo_ros2_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mateus/mateus_alonso/ros2_ws/src/build/gazebo_ros2_control -- -j12 -l12

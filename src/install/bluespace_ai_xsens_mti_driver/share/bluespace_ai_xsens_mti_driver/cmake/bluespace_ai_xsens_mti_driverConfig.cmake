@@ -1,0 +1,1 @@
+/home/mateus/mateus_alonso/ros2_ws/src/build/bluespace_ai_xsens_mti_driver/ament_cmake_core/bluespace_ai_xsens_mti_driverConfig.cmake

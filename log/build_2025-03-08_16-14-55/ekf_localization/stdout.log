@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/ekf_localization/ekf_localization.egg-info
+writing ../../build/ekf_localization/ekf_localization.egg-info/PKG-INFO
+writing dependency_links to ../../build/ekf_localization/ekf_localization.egg-info/dependency_links.txt
+writing entry points to ../../build/ekf_localization/ekf_localization.egg-info/entry_points.txt
+writing requirements to ../../build/ekf_localization/ekf_localization.egg-info/requires.txt
+writing top-level names to ../../build/ekf_localization/ekf_localization.egg-info/top_level.txt
+writing manifest file '../../build/ekf_localization/ekf_localization.egg-info/SOURCES.txt'
+reading manifest file '../../build/ekf_localization/ekf_localization.egg-info/SOURCES.txt'
+writing manifest file '../../build/ekf_localization/ekf_localization.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization
+copying ekf_localization/ekf_node.py -> /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization
+copying ekf_localization/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization
+running install
+running install_lib
+creating /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization
+copying /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization/ekf_node.py -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization
+copying /home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/build/lib/ekf_localization/__init__.py -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization
+byte-compiling /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization/ekf_node.py to ekf_node.cpython-310.pyc
+byte-compiling /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ament_index/resource_index/packages
+copying resource/ekf_localization -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization
+creating /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/launch
+copying launch/ekf_localization_launch.py -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/launch
+creating /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/config
+copying config/navsat_transform.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/config
+copying config/ekf_params.yaml -> /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/share/ekf_localization/config
+running install_egg_info
+Copying ../../build/ekf_localization/ekf_localization.egg-info to /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/python3.10/site-packages/ekf_localization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ekf_node script to /home/mateus/mateus_alonso/ros2_ws/install/ekf_localization/lib/ekf_localization
+writing list of installed files to '/home/mateus/mateus_alonso/ros2_ws/build/ekf_localization/install.log'

@@ -1,0 +1,5 @@
+ekf_localization_node:
+  ros__parameters:
+    process_noise: 0.01
+    gnss_noise: 0.5
+    imu_noise: 0.1

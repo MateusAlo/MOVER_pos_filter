@@ -1,0 +1,107 @@
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kbool gazebo_ros2_control::GazeboSystem::extractPID(const string&, const hardware_interface::ComponentInfo&, control_toolbox::Pid&)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:243:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass control_toolbox::Pid[m[K’ has no member named ‘[01m[Kinitialize[m[K’
+  243 |     pid.[01;31m[Kinitialize[m[K(kp, ki, kd, max_integral_error, min_integral_error, antiwindup);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kbool gazebo_ros2_control::GazeboSystem::extractPIDFromParameters(const string&, const string&, control_toolbox::Pid&)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:309:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass control_toolbox::Pid[m[K’ has no member named ‘[01m[Kinitialize[m[K’
+  309 |     pid.[01;31m[Kinitialize[m[K(kp, ki, kd, max_integral_error, min_integral_error, antiwindup);
+      |         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvoid gazebo_ros2_control::GazeboSystem::registerJoints(const hardware_interface::HardwareInfo&, gazebo::physics::ModelPtr)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:353:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+  353 |       hardware_info.[01;31m[Kmimic_joints[m[K.begin(),
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:354:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+  354 |       hardware_info.[01;31m[Kmimic_joints[m[K.end(),
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:355:37:[m[K [01;31m[Kerror: [m[K‘[01m[KMimicJoint[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  355 |       [j](const hardware_interface::[01;31m[KMimicJoint[m[K & mj) {
+      |                                     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In lambda function:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:357:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+  357 |       })[01;31m[K;[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvoid gazebo_ros2_control::GazeboSystem::registerJoints(const hardware_interface::HardwareInfo&, gazebo::physics::ModelPtr)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:357:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  357 |       })[01;31m[K;[m[K
+      |         [01;31m[K^[m[K
+      |         [32m[K)[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:352:27:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  352 |     auto it = std::find_if[01;36m[K([m[K
+      |                           [01;36m[K^[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:359:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+  359 |     if (it != hardware_info.[01;31m[Kmimic_joints[m[K.end()) {
+      |                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:529:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+  529 |   for (const auto & mimic_joint : hardware_info.[01;31m[Kmimic_joints[m[K) {
+      |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::perform_command_mode_switch(const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&, const std::vector<std::__cxx11::basic_string<char>, std::allocator<std::__cxx11::basic_string<char> > >&)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:754:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+  754 |   for (const auto & mimic_joint : this->info_.[01;31m[Kmimic_joints[m[K) {
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type gazebo_ros2_control::GazeboSystem::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:812:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Kmimic_joints[m[K’
+  812 |   for (const auto & mimic_joint : this->info_.[01;31m[Kmimic_joints[m[K) {
+      |                                               [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:834:48:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<control_toolbox::Pid>, control_toolbox::Pid>::value_type[m[K’ {aka ‘[01m[Kclass control_toolbox::Pid[m[K’} has no member named ‘[01m[Kcompute_command[m[K’; did you mean ‘[01m[KcomputeCommand[m[K’?
+  834 |         double cmd = this->dataPtr->vel_pid[j].[01;31m[Kcompute_command[m[K(vel_goal - vel, sim_period);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                [32m[KcomputeCommand[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_system.cpp:840:48:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<control_toolbox::Pid>, control_toolbox::Pid>::value_type[m[K’ {aka ‘[01m[Kclass control_toolbox::Pid[m[K’} has no member named ‘[01m[Kcompute_command[m[K’; did you mean ‘[01m[KcomputeCommand[m[K’?
+  840 |         double cmd = this->dataPtr->pos_pid[j].[01;31m[Kcompute_command[m[K(pos_goal - pos, sim_period);
+      |                                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                [32m[KcomputeCommand[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:82:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool gazebo_ros2_control::GazeboResourceManager::load_and_initialize_components(const string&, unsigned int)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   82 |   bool [01;31m[Kload_and_initialize_components[m[K(
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In constructor ‘[01m[Kgazebo_ros2_control::GazeboResourceManager::GazeboResourceManager(rclcpp::Node::SharedPtr&, gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:72:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Khardware_interface::ResourceManager::ResourceManager(rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr)[m[K’
+   72 |     logger_(node->get_logger().get_child("GazeboResourceManager")[01;31m[K)[m[K
+      |                                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:44[m[K,
+                 from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:42[m[K,
+                 from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:44[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:66:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ResourceManager::ResourceManager(const string&, bool, bool)[m[K’
+   66 |   explicit [01;36m[KResourceManager[m[K(
+      |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:67:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::node_interfaces::NodeClockInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeClockInterface>[m[K’} to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   67 |     [01;36m[Kconst std::string & urdf[m[K, bool validate_interfaces = true, bool activate_all = false);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:49:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Khardware_interface::ResourceManager::ResourceManager()[m[K’
+   49 |   [01;36m[KResourceManager[m[K();
+      |   [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:49:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kbool gazebo_ros2_control::GazeboResourceManager::load_and_initialize_components(const string&, unsigned int)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcomponents_are_loaded_and_initialized_[m[K’ was not declared in this scope
+   86 |     [01;31m[Kcomponents_are_loaded_and_initialized_[m[K = true;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:91:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct hardware_interface::HardwareInfo[m[K’ has no member named ‘[01m[Khardware_plugin_name[m[K’
+   91 |       std::string robot_hw_sim_type_str_ = individual_hardware_info.[01;31m[Khardware_plugin_name[m[K;
+      |                                                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:98:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::recursive_mutex hardware_interface::ResourceManager::resource_interfaces_lock_[m[K’ is private within this context
+   98 |       std::scoped_lock guard([01;31m[Kresource_interfaces_lock_[m[K, claimed_command_interfaces_lock_);
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:44[m[K,
+                 from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:42[m[K,
+                 from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:44[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:422:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+  422 |   mutable std::recursive_mutex [01;36m[Kresource_interfaces_lock_[m[K;
+      |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:98:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::recursive_mutex hardware_interface::ResourceManager::claimed_command_interfaces_lock_[m[K’ is private within this context
+   98 |       std::scoped_lock guard(resource_interfaces_lock_, [01;31m[Kclaimed_command_interfaces_lock_[m[K);
+      |                                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/controller_manager/controller_manager.hpp:44[m[K,
+                 from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp:42[m[K,
+                 from [01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:44[m[K:
+[01m[K/opt/ros/humble/include/hardware_interface/resource_manager.hpp:423:32:[m[K [01;36m[Knote: [m[Kdeclared private here
+  423 |   mutable std::recursive_mutex [01;36m[Kclaimed_command_interfaces_lock_[m[K;
+      |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo_ros2_control::GazeboRosControlPlugin::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/mateus/mateus_alonso/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/src/gazebo_ros2_control_plugin.cpp:397:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class controller_manager::ControllerManager[m[K’ {aka ‘[01m[Kclass controller_manager::ControllerManager[m[K’} has no member named ‘[01m[Kis_resource_manager_initialized[m[K’
+  397 |   while (!impl_->controller_manager_->[01;31m[Kis_resource_manager_initialized[m[K()) {
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/gazebo_hardware_plugins.dir/build.make:76: CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/gazebo_hardware_plugins.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/gazebo_ros2_control.dir/build.make:76: CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gazebo_ros2_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+/home/mateus/mateus_alonso/ros2_ws/src/build/ntrip/ament_cmake_core/ntripConfig-version.cmake
