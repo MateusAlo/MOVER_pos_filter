@@ -15,7 +15,7 @@ setup(
         ('share/' + package_name + '/scripts',['scripts/fake_data_publisher.py'])
 
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools','math'],
     zip_safe=True,
     maintainer='mateus',
     maintainer_email='mateusalonso@usp.br',
